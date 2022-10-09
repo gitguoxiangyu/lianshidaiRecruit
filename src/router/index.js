@@ -1,6 +1,7 @@
 import VueRouter from 'vue-router'
 import CBasic from '../components/CBasic.vue'
 import BackDev from '../components/BackDev.vue'
+import BlockChain from '../components/BlockChain.vue'
 
 export default new VueRouter({
   routes:[
@@ -25,7 +26,7 @@ export default new VueRouter({
     },
     {
       path:'/blockchain',
-      component: BackDev
+      component: BlockChain
     }
   ]
 })
