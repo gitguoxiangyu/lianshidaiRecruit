@@ -1,5 +1,4 @@
 import VueRouter from 'vue-router'
-import CBasic from '../components/CBasic.vue'
 
 export default new VueRouter({
   routes:[
@@ -7,8 +6,12 @@ export default new VueRouter({
       path:'/',
     },
     {
-      path:'/cbaisc',
-      component: CBasic
+      path:'/cbasic',
+      component: ()=> import('../components/CBasic.vue')
+    },
+    {
+      path:'/cadded',
+      component: ()=> import('../components/CAdded.vue')
     },
     {
       path:'/backdeveasy',
