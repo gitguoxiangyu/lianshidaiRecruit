@@ -5,9 +5,9 @@
     router=""
     mode="horizontal"
     @select="handleSelect"
-    background-color="rgba(0,0,0,0)"
-    text-color="#fff"
-    active-text-color="#ffd04b"
+    background-color="rgba(255,255,255,1)"
+    text-color="rgba(0,0,0,1)"
+    active-text-color="rgba(70, 151, 208,1)"
   >
     <el-row :gutter="0">
       <el-col :span="10"><div class="title">链时代工作室</div></el-col>
@@ -29,9 +29,11 @@
         ></el-col
       >
       <el-col :span="2"
-        ><el-menu-item index="5" route="/blockchain"
-          >区块链</el-menu-item
-        ></el-col
+        ><el-submenu index="2">
+          <template slot="title">区块链</template>
+          <el-menu-item index="2-1" route="/blockchaineasy">基础进阶</el-menu-item>
+          <el-menu-item index="2-2" route="/blockchainhard">实战强化</el-menu-item>
+        </el-submenu></el-col
       >
       <el-col :span="2"></el-col>
     </el-row>
@@ -82,7 +84,8 @@ export default {
   height: 100%;
   line-height: 80px;
   font-size: 20px;
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 .el-row{
@@ -100,6 +103,15 @@ export default {
   height: 80px;
   z-index: 100;
   box-shadow: 0px 0px 10px rgb(29, 28, 28);
+}
+
+.el-submenu{
+  height: 100%;
+  line-height: 80px;
+}
+.el-submenu__title{
+  height: 80px !important;
+  line-height: 80px;
 }
 
 .el-menu-item {

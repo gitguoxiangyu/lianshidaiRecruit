@@ -2,7 +2,7 @@
   <div class="main">
     <HeadBar/>
     <!-- 填充headbar -->
-    <div class="background"><img src="../assets/logo.jpg" alt=""></div>
+    <div class="background"></div>
     <router-view></router-view>
   </div>
 </template>
@@ -40,8 +40,10 @@ export default {
 img{
   width: 100%;
 }
-.backgroud{
-  background-image: url(../assets/logo.jpg);
+.background{
+  /* background-image: linear-gradient(to right,rgb(160,46,126) , rgb(208,70,114)); */
+  background-image: linear-gradient(to right,rgb(21, 44, 173) , rgb(70, 151, 208));
+  height: 500px;
   background-attachment: fixed;
     /* 让背景图基于容器大小伸缩 */
   background-size: cover;

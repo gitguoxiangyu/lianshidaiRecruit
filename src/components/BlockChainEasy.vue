@@ -1,5 +1,5 @@
 <template>
-  <div class="animate__animated animate__fadeIn">
+  <div class="animate__animated animate__fadeIn root">
     <body class="typora-export os-windows">
       <div id="write" class="">
         <h1>
@@ -65,72 +65,7 @@
           <li><span>默克尔树</span></li>
           <li><span>51%算力攻击</span></li>
         </ol>
-        <h2>
-          <a name="3落地实操" class="md-header-anchor"></a
-          ><span>3.落地实操</span>
-        </h2>
-        <p><span>（二选一）建议以下实操在虚拟机上运行</span></p>
-        <ol start="">
-          <li>
-            <span
-              >以太坊ETH：简单入门solidity语言（类似于javascript）并编写ERC20合约和ICO合约。（可以借鉴别人的代码）但请注明各个函数的作用</span
-            >
-          </li>
-          <li>
-            <span
-              >Hyperledger
-              Fabric：简单学习go语言，并在网上寻找一个fabric链码的简单案例模仿实现，注明各个方法的作用。</span
-            >
-          </li>
-        </ol>
-        <p>
-          <span
-            >建议在了解这俩种区块链平台之间的差别后，找到自己感兴趣的方向入门</span
-          >
-        </p>
-        <p>
-          <strong
-            ><span
-              >hint：以上内容仅供学习，别炒虚拟货币。否则搏一搏，单车变废铁。</span
-            ></strong
-          >
-        </p>
-        <h2>
-          <a name="4进阶题学有余力的同学可以尝试）" class="md-header-anchor"></a
-          ><span>4.进阶题（学有余力的同学可以尝试）</span>
-        </h2>
-        <p><span>（二选一）</span></p>
-        <ol start="">
-          <li><span>将编写的合约部署到测试链上（尝试remix本地部署）</span></li>
-          <li><span>在虚拟机上部署好fabric测试环境。</span></li>
-        </ol>
-        <h2>
-          <a name="参考资料" class="md-header-anchor"></a><span>参考资料</span>
-        </h2>
-        <p>
-          <a
-            href="https://www.bilibili.com/video/BV1NJ411D7rf?from=search&amp;seid=5949939177329357175&amp;spm_id_from=333.337.0.0"
-            ><span>尚硅谷的教材（有点老）</span></a
-          >
-        </p>
-        <p>
-          <a href="r9it.com/20180726/create-token.html"
-            ><span>ERC20智能合约</span></a
-          ><span>（供参考）</span>
-        </p>
-        <p>
-          <a
-            href="https://learnblockchain.cn/books/enterprise/chapter3_03%20hyperledger_fabric_architecture.html"
-            ><span>Hyperledger Fabric系统架构</span></a
-          >
-        </p>
-        <p>
-          <a
-            href="https://www.bilibili.com/video/BV1H4411Q7rw/?vd_source=48fb4c997e5ec5e1d72c1e17f605016b"
-            ><span>普林斯顿公开课《比特币与加密货币技术》区块链技术</span></a
-          >
-        </p>
-        <p>&nbsp;</p>
+        
       </div>
     </body>
   </div>
@@ -142,6 +77,10 @@ export default {};
 </script>
 
 <style scoped>
+.root{
+  background-color: rgb(226,226,226) !important; 
+  padding: 0px 30px;
+}
 p{
   text-align: left;
 }
@@ -169,7 +108,7 @@ li{
   -webkit-font-smoothing: antialiased;
 }
 body {
-  background-color: rgb(226,226,226) !important; 
+  background-color: white !important; 
   margin: 0px;
   padding: 0px;
   height: auto;
@@ -181,6 +120,9 @@ body {
   line-height: 1.42857;
   overflow-x: hidden;
   background: inherit;
+  position: relative;
+  top: -60px;
+  border-radius: 3%;
   tab-size: 4;
 }
 iframe {

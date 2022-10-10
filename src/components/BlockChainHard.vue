@@ -2,285 +2,97 @@
   <div class="animate__animated animate__fadeIn root">
     <body class="typora-export os-windows">
       <div id="write" class="">
-        <h1>
-          <a name="后端招新题" class="md-header-anchor"></a
-          ><span>后端招新题</span>
-        </h1>
-        <h2>
-          <a name="1-基础入门" class="md-header-anchor"></a
-          ><span>1. 基础入门</span>
-        </h2>
-        <ol>
-          <li>
-            <span> </span
-            ><strong
-              ><span>你对后端有什么理解？你为什么想要了解后端？</span></strong
-            >
-          </li>
-        </ol>
-        <ol start="2">
-          <li>
-            <span> </span
-            ><strong><span>请用c++/java实现蛇形矩阵.</span></strong>
-          </li>
-        </ol>
-        <ol start="3">
-          <li>
-            <span> </span
-            ><strong
-              ><span
-                >请用c++/java实现一个可以将字符串转化为浮点数的程序(输入合法字符串，输出浮点类型数字).</span
-              ></strong
-            >
-          </li>
-        </ol>
-        <p>&nbsp;</p>
-        <h2>
-          <a name="2-进阶提升" class="md-header-anchor"></a
-          ><span>2. 进阶提升</span>
-        </h2>
-        <ol>
-          <li>
-            <p>
-              <strong
-                ><span>重写equals()和hashCode()方法(for Java).</span></strong
-              >
-            </p>
-            <ul>
-              <li>
-                <span
-                  >定义一个名为Car的类,类中包括两个String类型的成员变量brand和number.</span
-                >
-              </li>
-              <li>
-                <span
-                  >重写Car类的equals()和hashCode()
-                  方法,比较规则为:若brand属性相同,则两车相同.</span
-                >
-              </li>
-              <li>
-                <span
-                  >在main方法中实现如下功能:分别用equals和==
-                  判断输出两个brand相同的Car对象以及它们的hashCode.</span
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>
-              <strong><span>重载==(for c++).</span></strong>
-            </p>
-            <ul>
-              <li>
-                <span
-                  >定义一个名为Car的类,类中包括两个String类型的成员变量brand和number.</span
-                >
-              </li>
-              <li>
-                <span
-                  >重载Car类的== ,比较规则为:若brand属性相同,则两车相同.</span
-                >
-              </li>
-              <li>
-                <span
-                  >在main方法中实现如下功能:
-                  判断输出两个brand相同的Car对象.</span
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>
-              <strong><span>接口</span></strong>
-            </p>
-            <ul>
-              <li>
-                <span
-                  >定义一个名为USB的接口,接口中包含work()
-                  方法:定义一个名为Device的类,该类中含有start()和stop()
-                  两个方法,能够分别输出“start”和“stop”.</span
-                >
-              </li>
-              <li>
-                <span
-                  >再定义两个名为Phone和Computer的类，分别继承Device类和USB接口.其中,Phone类单独实现call()
-                  方法,输出“CALL”.</span
-                >
-              </li>
-              <li>
-                <span
-                  >在main方法中定义一个USB类型的数组,遍历该数组,调用每个元素的work()
-                  方法；如果该元素是Phone类，则再调用call() 方法.</span
-                >
-              </li>
-            </ul>
-          </li>
-        </ol>
-        <p>&nbsp;</p>
         <h2>
           <a name="3落地实操" class="md-header-anchor"></a
           ><span>3.落地实操</span>
         </h2>
-        <ol>
+        <p><span>（二选一）建议以下实操在虚拟机上运行</span></p>
+        <ol start="">
           <li>
-            <p>
-              <strong
-                ><span
-                  >用c++/java语言完成以下程序.（尽力而为，完成一部分即可）</span
-                ></strong
-              >
-            </p>
-            <ul>
-              <li>
-                <p>
-                  <span
-                    >定义一个名为Person的类,含有两个String类型的成员变量name和sex,一个int类型的成员变量age.</span
-                  >
-                </p>
-              </li>
-              <li>
-                <p><span>分别实现getXXXX访问方法和setXXXX修改方法.</span></p>
-              </li>
-              <li>
-                <p>
-                  <span
-                    >实现构造方法Person(String name, String sex, int age).</span
-                  >
-                </p>
-              </li>
-              <li>
-                <p>
-                  <span
-                    >定义类似于Person类的类Student（Strin id、double
-                    grade）、Teacher、Course(String name、Teacher
-                    teacher、String position、Data
-                    time),并分别实现getXXXX访问方法和setXXXX修改方法,分别实现构造方法.</span
-                  >
-                </p>
-              </li>
-              <li>
-                <p>
-                  <span
-                    >定义一个名为MyFile的文件类,含有一个File类型的成员变量opfile,分别实现getFile()
-                    访问方法返回opfile、readFile(Object[])
-                    方法和writeFile(Object)方法；实现构造方法MyFile (String
-                    fileName),用于打开已有文件,如果不存在,则新建文件;readFile(Object[])
-                    将文件的信息读到数组中,writeFile(Objecct)
-                    将对象写入文件中。注意： writeFile(Object)
-                    将对象通过序列化写入磁盘文件中; readFile(Object[])
-                    通过对磁盘文件信息反序化生成对象,存放在数组对象中.</span
-                  >
-                </p>
-              </li>
-              <li>
-                <p>
-                  <span
-                    >利用前面的类,编程实现分别输入5条记录的教师、学生、课程、排课、选课等信息,并利用文件类的方法,写入文件中:利用自己类的readfile方法,将文件的信息分别读入对象数组中.编写程序完成下面两个功能:</span
-                  >
-                </p>
-                <p>
-                  <span>1）</span><strong><span>查询:</span></strong
-                  ><span>
-                    任意输入学生的学号，查询显示该学生所选课程的名称、教师、时间、地点.</span
-                  >
-                  <span>2）</span><strong><span>排序:</span></strong
-                  ><span>
-                    将学生信息按成绩排序输出，若成绩相同，则按学号排序.</span
-                  >
-                </p>
-              </li>
-            </ul>
+            <span
+              >以太坊ETH：简单入门solidity语言（类似于javascript）并编写ERC20合约和ICO合约。（可以借鉴别人的代码）但请注明各个函数的作用</span
+            >
+          </li>
+          <li>
+            <span
+              >Hyperledger
+              Fabric：简单学习go语言，并在网上寻找一个fabric链码的简单案例模仿实现，注明各个方法的作用。</span
+            >
           </li>
         </ol>
-        <p>&nbsp;</p>
-        <h2>
-          <a name="4进阶题" class="md-header-anchor"></a><span>4.进阶题</span>
-        </h2>
-        <ol>
-          <li>
-            <p>
-              <strong><span>了解Sql.(如果还有兴趣,就做做这些事)</span></strong>
-            </p>
-            <ul>
-              <li><span>尝试在你的电脑上安装Mysql数据库和SQLyog.</span></li>
-              <li>
-                <span
-                  >按照第6题定义的Student和Course类创建表student_tbl和course_tbl.</span
-                >
-              </li>
-              <li><span>尝试学习sql语句，对你创建的数据表进行修改.</span></li>
-              <li><span>了解怎样用java/c++操作数据库.</span></li>
-            </ul>
-          </li>
-        </ol>
-        <h2><a name="" class="md-header-anchor"></a></h2>
-        <p>
-          <strong
-            ><span
-              >考察题目相对较难,重在考察大家的自学能力,无须全部做完,大家尽力完成即可,面试时可能会抽查笔试题目中的内容.</span
-            ></strong
-          >
-        </p>
         <p>
           <span
-            >问题1写在一个doc文档里,问题2、3、4、5、6将代码打成压缩包(4、5、6建议分别放在不同的package中),之后一并打包发送到邮箱</span
-          ><strong
-            ><a
-              href="mailto:lxx18912405977@outlook.com"
-              target="_blank"
-              class="url"
-              >lxx18912405977@outlook.com</a
-            ></strong
-          ><span>
-            ,若完成第五题(或完成一部分),面试时须带电脑来现场进行演示.</span
+            >建议在了解这俩种区块链平台之间的差别后，找到自己感兴趣的方向入门</span
           >
         </p>
         <p>
           <strong
             ><span
-              >如果对题目理解有疑问的,欢迎QQ联系. QQ: 2356176435.</span
+              >hint：以上内容仅供学习，别炒虚拟货币。否则搏一搏，单车变废铁。</span
             ></strong
           >
         </p>
+        <h2>
+          <a name="4进阶题学有余力的同学可以尝试）" class="md-header-anchor"></a
+          ><span>4.进阶题（学有余力的同学可以尝试）</span>
+        </h2>
+        <p><span>（二选一）</span></p>
+        <ol start="">
+          <li><span>将编写的合约部署到测试链上（尝试remix本地部署）</span></li>
+          <li><span>在虚拟机上部署好fabric测试环境。</span></li>
+        </ol>
+        <h2>
+          <a name="参考资料" class="md-header-anchor"></a><span>参考资料</span>
+        </h2>
         <p>
-          <span>学习网站推荐:</span
-          ><a href="https://www.w3cschool.cn/"><span>w3cschool</span></a
-          ><span> </span
-          ><a href="https://www.runoob.com/"><span>菜鸟教程</span></a
-          ><span> </span
-          ><a href="https://www.bilibili.com"><span>bilibili</span></a>
-        </p>
-        <p>
-          <span>最可靠的就是文档:</span><br /><a
-            href="https://docs.oracle.com/en/java/javase/18/docs/api/index.html"
-            ><span>Java API</span></a
-          ><span></span><br /><a href="https://www.apiref.com/cpp-zh/index.html"
-            ><span>C++ API</span></a
+          <a
+            href="https://www.bilibili.com/video/BV1NJ411D7rf?from=search&amp;seid=5949939177329357175&amp;spm_id_from=333.337.0.0"
+            ><span>尚硅谷的教材（有点老）</span></a
           >
         </p>
+        <p>
+          <a href="r9it.com/20180726/create-token.html"
+            ><span>ERC20智能合约</span></a
+          ><span>（供参考）</span>
+        </p>
+        <p>
+          <a
+            href="https://learnblockchain.cn/books/enterprise/chapter3_03%20hyperledger_fabric_architecture.html"
+            ><span>Hyperledger Fabric系统架构</span></a
+          >
+        </p>
+        <p>
+          <a
+            href="https://www.bilibili.com/video/BV1H4411Q7rw/?vd_source=48fb4c997e5ec5e1d72c1e17f605016b"
+            ><span>普林斯顿公开课《比特币与加密货币技术》区块链技术</span></a
+          >
+        </p>
+        <p>&nbsp;</p>
       </div>
     </body>
   </div>
 </template>
 
 <script>
-export default {
-  data() {
-    return {};
-  },
-  components: {},
-};
+import "animate.css";
+export default {};
 </script>
 
 <style scoped>
-* {
-  text-align: left;
-}
 .root {
   background-color: rgb(226, 226, 226) !important;
   padding: 0px 30px;
 }
-html {
+p {
+  text-align: left;
+}
+li {
+  text-align: left;
+}
+* {
+  text-align: left;
+}
+.html {
   overflow-x: initial !important;
 }
 :root {
@@ -290,7 +102,7 @@ html {
   --select-text-font-color: auto;
   --monospace: "Lucida Console", Consolas, "Courier", monospace;
 }
-html {
+.html {
   font-size: 14px;
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -332,6 +144,7 @@ a:hover {
   color: var(--select-text-font-color);
 }
 #write {
+  background-color: white;
   margin: 0px auto;
   height: auto;
   width: inherit;
@@ -663,7 +476,7 @@ li > :first-child {
 }
 @media print {
   body,
-  html {
+  .html {
     border: 1px solid transparent;
     height: 99%;
     break-after: avoid;
@@ -678,7 +491,7 @@ li > :first-child {
   .typora-export * {
     -webkit-print-color-adjust: exact;
   }
-  html.blink-to-pdf {
+  .html.blink-to-pdf {
     font-size: 13px;
   }
   .typora-export #write {
@@ -975,8 +788,8 @@ mark {
   background: rgb(255, 255, 0);
   color: rgb(0, 0, 0);
 }
-.md-html-inline .md-plain,
-.md-html-inline strong,
+.md-.html-inline .md-plain,
+.md-.html-inline strong,
 mark .md-inline-math,
 mark strong {
   color: inherit;
@@ -997,7 +810,7 @@ mark .md-meta {
 /* open-sans-italic - latin-ext_latin */
 /* open-sans-700 - latin-ext_latin */
 /* open-sans-700italic - latin-ext_latin */
-html {
+.html {
   font-size: 16px;
 }
 
