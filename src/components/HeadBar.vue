@@ -21,7 +21,11 @@
         ><el-menu-item index="2" route="/frontdev">前端</el-menu-item></el-col
       >
       <el-col :span="2"
-        ><el-menu-item index="3" route="/backdev">后端</el-menu-item></el-col
+        ><el-submenu index="3">
+          <template slot="title">后端</template>
+          <el-menu-item index="2-1" route="/backdeveasy">基础进阶</el-menu-item>
+          <el-menu-item index="2-2" route="/backdevhard">实战强化</el-menu-item>
+        </el-submenu></el-col
       >
       <el-col :span="2"
         ><el-menu-item index="4" route="/machinelearning"
@@ -29,10 +33,10 @@
         ></el-col
       >
       <el-col :span="2"
-        ><el-submenu index="2">
+        ><el-submenu index="6">
           <template slot="title">区块链</template>
-          <el-menu-item index="2-1" route="/blockchaineasy">基础进阶</el-menu-item>
-          <el-menu-item index="2-2" route="/blockchainhard">实战强化</el-menu-item>
+          <el-menu-item index="6" route="/blockchaineasy">基础进阶</el-menu-item>
+          <el-menu-item index="6" route="/blockchainhard">实战强化</el-menu-item>
         </el-submenu></el-col
       >
       <el-col :span="2"></el-col>
@@ -107,10 +111,6 @@ export default {
 
 .el-submenu{
   height: 100%;
-  line-height: 80px;
-}
-.el-submenu__title{
-  height: 80px !important;
   line-height: 80px;
 }
 

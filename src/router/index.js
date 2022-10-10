@@ -1,6 +1,5 @@
 import VueRouter from 'vue-router'
 import CBasic from '../components/CBasic.vue'
-import BackDev from '../components/BackDev.vue'
 
 export default new VueRouter({
   routes:[
@@ -12,18 +11,21 @@ export default new VueRouter({
       component: CBasic
     },
     {
-      path:'/backdev',
-      component: BackDev
+      path:'/backdeveasy',
+      component: ()=> import('../components/BackDevEasy.vue')
+    },
+    {
+      path:'/backdevhard',
+      component: ()=> import('../components/BackDevHard.vue')
     },
     {
       path:'/frontdev',
-      component: BackDev
     },
     {
-      path:'/machinelearning',
-      component: BackDev
+      path:'/machinelearning'
     },
     // 本来想做个子路由，发现无法直接跳转
+    // 区块链招新题
     {
       path:'/blockchaineasy',
       component: ()=> import('../components/BlockChainEasy.vue')
