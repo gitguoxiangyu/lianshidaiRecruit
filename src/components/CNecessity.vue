@@ -3,137 +3,97 @@
     <body class="typora-export os-windows">
       <div id="write" class="">
         <h2>
-          <a name="c语言算法题" class="md-header-anchor"></a
-          ><span>C语言算法题</span>
+          <a name="c语言基础题" class="md-header-anchor"></a
+          ><span>C语言基础题</span>
         </h2>
+        <h3>
+          <a name="1-ab-problem" class="md-header-anchor"></a
+          ><span>1 A+B problem</span>
+        </h3>
+        <p>
+          <span
+            >小明刚刚收获了两堆苹果，他知道每一堆苹果的数量，但是他不知道一共有多少个苹果，你能帮帮他吗？</span
+          >
+        </p>
+        <p><span>输入：两个数 a，b。</span></p>
+        <p><span>输出：a和b的和</span></p>
+        <p>
+          <span>样例：</span><del><span>这个还需要样例吗</span></del>
+        </p>
+        <p><span>数据范围 0&lt; a,b &lt; 1000000</span></p>
+        <p>&nbsp;</p>
+        <h3>
+          <a name="2-制作一个计算器" class="md-header-anchor"></a
+          ><span>2 制作一个计算器</span>
+        </h3>
+        <p>
+          <del
+            ><span
+              >好，我们现在已经学会了a+b了，现在让我们来做高精度......</span
+            ></del
+          >
+        </p>
+        <p><span>不必理会上面那句话</span></p>
+        <p>
+          <span
+            >好了，现在小明看到你用计算机帮助了他解决了这个问题，他非常羡慕你，但同时他也想要一个计算器可以帮助他解决算数的问题，你能帮助他制作一个计算器吗。</span
+          >
+        </p>
+        <p>
+          <span>要求：制作一个计算器，使它能够计算两个数的加减乘除计算。</span>
+        </p>
+        <p><span>输入：第1行，一个数n ，代表有n个计算式</span></p>
+        <p>
+          <span> </span
+          ><span>第2到第n+1行，一个数a 一个计算符号 c 一个数 b</span>
+        </p>
+        <p><span>输出：有n行，每一行输出两个数a，b计算的结果。</span></p>
+        <p><span>样例：</span></p>
+        <pre
+          spellcheck="false"
+          class="md-fences md-end-block ty-contain-cm modeLoaded"
+          lang=""
+        ><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">4</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">1 + 1</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">2 - 1</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">3 * 2</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">4 / 2</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 113px;"></div><div class="CodeMirror-gutters" style="display: none; height: 113px;"></div></div></div></pre>
+        <p><span>答案：</span></p>
+        <pre
+          spellcheck="false"
+          class="md-fences md-end-block ty-contain-cm modeLoaded"
+          lang=""
+        ><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">2</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">1</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">6</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">2</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 91px;"></div><div class="CodeMirror-gutters" style="display: none; height: 91px;"></div></div></div></pre>
+        <p><span>数据范围：</span></p>
+        <p><span>0&lt; n &lt; 100 , 0&lt; a, b &lt; 1000000</span></p>
+        <p><span>P.S.除法的商取整即可</span></p>
+        <p>&nbsp;</p>
+        <h3>
+          <a name="3-排序" class="md-header-anchor"></a><span>3 排序</span>
+        </h3>
+        <p>
+          <span
+            >第二年到了，小明这一年收的苹果已经不止两堆啦！为了方便搬运安排，小明打算把这些苹果堆按照个数，从小到大排序，但苹果堆的个数实在是太多了，你能帮助小明快速地将苹果排个序吗？</span
+          >
+        </p>
+        <p><span>输入：第一行 一个数n，代表堆的个数</span></p>
+        <p><span> 第二行 n个数Xi，代表每一堆的苹果个数</span></p>
+        <p><span>输出：n个数，从小到大输出每个堆的苹果的个数</span></p>
+        <p><span>样例：</span></p>
+        <pre
+          spellcheck="false"
+          class="md-fences md-end-block ty-contain-cm modeLoaded"
+          lang=""
+        ><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">4</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">4 3 2 1</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 45px;"></div><div class="CodeMirror-gutters" style="display: none; height: 45px;"></div></div></div></pre>
+        <p><span>答案：</span></p>
+        <pre
+          spellcheck="false"
+          class="md-fences md-end-block ty-contain-cm modeLoaded"
+          lang=""
+        ><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">1 2 3 4</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 23px;"></div><div class="CodeMirror-gutters" style="display: none; height: 23px;"></div></div></div></pre>
+        <p><span>数据范围：</span></p>
+        <p><span>0&lt; n &lt; 100 0&lt;Xi&lt;10000</span></p>
+        <p>
+          <span>P.S. 如果可以的话，尽可能地用更快地排序的方法会更好。</span>
+        </p>
+        <p>&nbsp;</p>
         
-        <h3>
-          <a name="4-hash算法" class="md-header-anchor"></a
-          ><span>4 hash算法</span>
-        </h3>
-        <p>
-          <span
-            >第三年咯，小明的苹果收获颇丰，购买小明苹果的客人也非常的多，但小明却很苦恼，购买苹果的人太多了，他快要分不清哪些人购买了多少苹果了，所以他想创建一个能够搜索的列表，通过输入客户的名字就可以找到客户购买的苹果数量，可惜，他不会操纵电脑，为此，他专门求助了万能的你，希望你可以帮助他解决个问题。</span
-          >
-        </p>
-        <p><span>输入：第一行 一个数n 代表客人的数量</span></p>
-        <p>
-          <span> </span
-          ><span
-            >第2—n+1行 每行一个字符串 代表客人的名字 一个数字x
-            代表客人购买的苹果的数量</span
-          >
-        </p>
-        <p><span> </span><span>第n+2行 一个数q 代表查询的次数</span></p>
-        <p>
-          <span> </span
-          ><span>第n+3—n+2+q行 每行一个字符串 代表要查询的客人的名字</span>
-        </p>
-        <p><span>输出：q行 每一行输出客人购买的苹果的个数</span></p>
-        <p><span>样例：</span></p>
-        <pre
-          spellcheck="false"
-          class="md-fences md-end-block ty-contain-cm modeLoaded"
-          lang=""
-        ><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">3</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Tom 10</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Tim 11</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Dingkai 999</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">2</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Dingkai</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Tin</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 159px;"></div><div class="CodeMirror-gutters" style="display: none; height: 159px;"></div></div></div></pre>
-        <p><span>答案：</span></p>
-        <pre
-          spellcheck="false"
-          class="md-fences md-end-block ty-contain-cm modeLoaded"
-          lang=""
-        ><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">999</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">0</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 45px;"></div><div class="CodeMirror-gutters" style="display: none; height: 45px;"></div></div></div></pre>
-        <p><span>数据范围：</span></p>
-        <p><span>0&lt;n&lt;100, 0&lt;q&lt;100, 0&lt;x&lt;1000</span></p>
-        <p>
-          <span
-            >P.S.有些根本没有买过苹果的人可能会来问小明他买的苹果的个数，请&quot;亲切地&quot;告诉他
-            0.</span
-          >
-        </p>
-        <p>
-          <span
-            >提示：hash算法是将一个字符串通过一些方式转化为一个数字的方法，请注意尽可能不要让不同的字符串转化为同一个数字。（无法绝对做到）</span
-          >
-        </p>
-        <p>&nbsp;</p>
-        <h3>
-          <a name="5-括号串" class="md-header-anchor"></a><span>5 括号串</span>
-        </h3>
-        <p>
-          <span
-            >众所周知，小明不仅种植着苹果树，他还种植着另一种树——括号树，这一天，小明从括号树上摘下了一串括号，他突发奇想，想看看这些括号是否合法，但是他看着长长的括号串，陷入了沉思，于是他打算向你求助，在他长达5个小时的夸赞下，你终于决定帮助他。</span
-          >
-        </p>
-        <p>
-          <span
-            >解释：对于合法的括号串，括号应有前括号和后括号，并且括号内的括号们也应当是合法的。</span
-          >
-        </p>
-        <p><span>合法括号：</span></p>
-        <pre
-          spellcheck="false"
-          class="md-fences md-end-block ty-contain-cm modeLoaded"
-          lang=""
-        ><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">()  ({})([{}]) &nbsp; ({}[])</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 23px;"></div><div class="CodeMirror-gutters" style="display: none; height: 23px;"></div></div></div></pre>
-        <p><span>不合法括号：</span></p>
-        <pre
-          spellcheck="false"
-          class="md-fences md-end-block ty-contain-cm modeLoaded"
-          lang=""
-        ><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">( &nbsp; ({)} &nbsp;  (){ &nbsp;  ({)</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 23px;"></div><div class="CodeMirror-gutters" style="display: none; height: 23px;"></div></div></div></pre>
-        <p><span>输入：第一行 一个数字n 代表括号串的个数</span></p>
-        <p><span> </span><span>第2—n+1 行 一个字符串 表示括号串</span></p>
-        <p><span>输出：n行 依次输出括号串是否合法 是则输出Y 否则输出N</span></p>
-        <p><span>样例：</span></p>
-        <pre
-          spellcheck="false"
-          class="md-fences md-end-block ty-contain-cm modeLoaded"
-          lang=""
-        ><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">3</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">({}[]){[()()]()})</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">{({[]})[{}()]([{}][])</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 91px;"></div><div class="CodeMirror-gutters" style="display: none; height: 91px;"></div></div></div></pre>
-        <p><span>答案：</span></p>
-        <pre
-          spellcheck="false"
-          class="md-fences md-end-block ty-contain-cm modeLoaded"
-          lang=""
-        ><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Y</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">N</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">N</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 68px;"></div><div class="CodeMirror-gutters" style="display: none; height: 68px;"></div></div></div></pre>
-        <p><span>数据范围：</span></p>
-        <p><span>0&lt;n&lt;100, 字符串长度不超过100；</span></p>
-        <p><span>提示：使用栈这种数据结构可以很轻松解决</span></p>
-        <p>&nbsp;</p>
-        <h3>
-          <a name="6-一笔画问题" class="md-header-anchor"></a
-          ><span>6 一笔画问题</span>
-        </h3>
-        <p>
-          <span
-            >时代进步，科技发展，小明也开始使用网购啦！当然，他是商家。第四年的他已经接收到了足够多的订单了，他现在要将苹果送到各个客户的家中，看着这些客户的地址，小明将客户的地址和它们之间的路画了出来，为了刷微信步数，他想要把每一条路都走一次，却不重复走每一条路。小明弱弱的CPU无法处理这样的问题，这一次，他抱着你的大腿痛哭，希望你能帮助他看看这样的图能否一笔画，你无奈的摇了摇头，还是选择</span
-          ><del><span>原谅</span></del
-          ><span>帮助了他。</span>
-        </p>
-        <p>
-          <span
-            >对于一张图，我们将给出每一条边，和他们连接的点，每一个点我们都将给予他们编号，编号是从1到x的连续整数。</span
-          >
-        </p>
-        <p><span>输入：第一行 一个数n 表示n条边</span></p>
-        <p><span> </span><span>第2—n+1行 给出这条边连接的两个点u，v</span></p>
-        <p><span>输出：一个字符 如果可以一笔画 则输出Y 否则N</span></p>
-        <p><span>样例：</span></p>
-        <pre
-          spellcheck="false"
-          class="md-fences md-end-block ty-contain-cm modeLoaded"
-          lang=""
-        ><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">4</span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">1 2</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">2 3</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">3 4</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">4 1</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 113px;"></div><div class="CodeMirror-gutters" style="display: none; height: 113px;"></div></div></div></pre>
-        <p><span>答案：</span></p>
-        <pre
-          spellcheck="false"
-          class="md-fences md-end-block ty-contain-cm modeLoaded"
-          lang=""
-        ><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Y</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 23px;"></div><div class="CodeMirror-gutters" style="display: none; height: 23px;"></div></div></div></pre>
-        <p><span>数据范围：</span></p>
-        <p><span>0&lt;n&lt;100</span></p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>

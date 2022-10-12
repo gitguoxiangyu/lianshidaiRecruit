@@ -2,13 +2,14 @@
   <div class="main">
     <HeadBar/>
     <!-- 填充headbar -->
-    <div class="background"></div>
+    <background class="background"></background>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 import HeadBar from '../components/HeadBar.vue'
+import background from '../components/background/index.vue'
 export default {
   data() {
     return {
@@ -16,7 +17,8 @@ export default {
     };
   },
   components:{
-    HeadBar
+    HeadBar,
+    background
   },
   methods: {
     // listenerScroll() {
@@ -42,10 +44,12 @@ img{
 }
 .background{
   /* background-image: linear-gradient(to right,rgb(160,46,126) , rgb(208,70,114)); */
-  background-image: linear-gradient(to right,rgb(21, 44, 173) , rgb(70, 151, 208));
-  height: 500px;
-  background-attachment: fixed;
-    /* 让背景图基于容器大小伸缩 */
-  background-size: cover;
+  /* background-image: linear-gradient(to right,rgb(21, 44, 173) , rgb(70, 151, 208)); */
+  height: 500px !important;
+  /* background-attachment: fixed;
+  background-size: cover; */
 }
+/* .main{
+  overflow: scroll;
+} */
 </style>

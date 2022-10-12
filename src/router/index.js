@@ -2,8 +2,14 @@ import VueRouter from 'vue-router'
 
 export default new VueRouter({
   routes:[
+    // 本来想根据方向做个子路由，发现无法直接跳转
     {
       path:'/',
+    },
+    // C语言招新题
+    {
+      path:'/cnecessity',
+      component: ()=> import('../components/CNecessity.vue')
     },
     {
       path:'/cbasic',
@@ -13,6 +19,7 @@ export default new VueRouter({
       path:'/cadded',
       component: ()=> import('../components/CAdded.vue')
     },
+    // 后端招新题
     {
       path:'/backdeveasy',
       component: ()=> import('../components/BackDevEasy.vue')
@@ -21,13 +28,18 @@ export default new VueRouter({
       path:'/backdevhard',
       component: ()=> import('../components/BackDevHard.vue')
     },
+    //前端招新题
     {
-      path:'/frontdev',
+      path:'/frontdevhtmlcss',
+      component: ()=> import('../components/FrontDevEasy.vue')
+    },
+    {
+      path:'/frontdevjs',
+      component: ()=> import('../components/FrontDevJS.vue')
     },
     {
       path:'/machinelearning'
     },
-    // 本来想做个子路由，发现无法直接跳转
     // 区块链招新题
     {
       path:'/blockchaineasy',
