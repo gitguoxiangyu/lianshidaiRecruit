@@ -11,7 +11,7 @@
   >
     <el-row :gutter="0">
       <el-col :span="10"><div class="title">链时代工作室</div></el-col>
-      <el-col :span="2"><el-menu-item index="0">Home</el-menu-item></el-col>
+      <el-col :span="2"><el-menu-item index="0" route="/">Home</el-menu-item></el-col>
       <el-col :span="2"
         ><el-submenu index="1">
           <template slot="title">C语言</template>
