@@ -11,7 +11,14 @@
 import './js/demo.js'
 import './js/jquery.particleground'
 export default {
-
+  data() {
+    return {
+      
+    }
+  },
+  beforeDestroy(){
+    console.log("111");
+  }
 }
 </script>
 
@@ -97,7 +104,7 @@ body {
 #intro {
   position: absolute;
   left: 0;
-  top: 30%;
+  top: 25%;
   padding: 0 20px;
   width: 100%;
   text-align: center;

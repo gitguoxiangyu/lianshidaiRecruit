@@ -13,7 +13,7 @@ import background from '../components/background/index.vue'
 export default {
   data() {
     return {
-
+      show: false,
     };
   },
   components:{
@@ -31,6 +31,17 @@ export default {
     //     console.log("离顶了");
     //   }
     // },
+  },
+  watch:{
+    $route(to,from){
+      console.log(to.path)
+      console.log(from.path);
+      if (to.path == '/'){
+        this.show = false
+      }else {
+        this.show = true
+      }
+    }
   },
   mounted() {
     // window.addEventListener('scroll', this.listenerScroll)
