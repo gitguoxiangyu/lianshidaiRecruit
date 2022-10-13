@@ -1,5 +1,5 @@
 <template>
-  <div class="root">
+  <div class="animate__animated animate__fadeIn root">
     <body class="typora-export os-windows">
       <div id="write" class="">
         
@@ -34,8 +34,8 @@
           ><span>：郭翔</span>
         </p>
         <p>
-          <strong><span>demo下载</span></strong
-          ><span><a href="../assets/demo.zip"></a></span>
+          <strong><span></span></strong
+          ><span><a href="../assets/demo.zip">demo下载</a></span>
         </p>
         <p>&nbsp;</p>
         <h3>

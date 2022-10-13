@@ -1,5 +1,5 @@
 <template>
-  <div class="root">
+  <div class="animate__animated animate__fadeIn root">
     <body class="typora-export os-windows">
       <div id="write" class="">
         <h1>
