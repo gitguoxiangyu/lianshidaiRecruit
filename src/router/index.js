@@ -38,8 +38,14 @@ export default new VueRouter({
       path:'/frontdevjs',
       component: ()=> import('../components/FrontDevJS.vue')
     },
+    // 机器学习
     {
-      path:'/machinelearning'
+      path:'/machinelearningeasy',
+      component: ()=> import('../components/MachineLearningBasic.vue')
+    },
+    {
+      path:'/machinelearninghard',
+      component: ()=> import('../components/MachineLearningHard.vue')
     },
     // 区块链招新题
     {
@@ -49,6 +55,10 @@ export default new VueRouter({
     {
       path:'/blockchainhard',
       component: ()=> import('../components/BlockChainHard.vue')
+    },
+    {
+      path:'/blockchainforeword',
+      component: ()=> import('../components/BlockChainForeword.vue')
     }
   ]
 })

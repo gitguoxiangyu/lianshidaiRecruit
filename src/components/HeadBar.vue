@@ -21,29 +21,32 @@
         </el-submenu></el-col
       >
       <el-col :span="2"
-        ><el-submenu index="2">
+        ><el-submenu index="3">
           <template slot="title">前端</template>
           <el-menu-item index="3-1" route="/frontdevhtmlcss">HTML和CSS基础</el-menu-item>
           <el-menu-item index="3-2" route="/frontdevjs">JS进阶</el-menu-item>
         </el-submenu></el-col
       >
       <el-col :span="2"
-        ><el-submenu index="3">
+        ><el-submenu index="2">
           <template slot="title">后端</template>
           <el-menu-item index="2-1" route="/backdeveasy">基础进阶</el-menu-item>
           <el-menu-item index="2-2" route="/backdevhard">实战强化</el-menu-item>
         </el-submenu></el-col
       >
       <el-col :span="2"
-        ><el-menu-item index="4" route="/machinelearning"
-          >机器学习</el-menu-item
-        ></el-col
+        ><el-submenu index="4">
+          <template slot="title">机器学习</template>
+          <el-menu-item index="4-1" route="/machinelearningeasy">基础进阶</el-menu-item>
+          <el-menu-item index="4-2" route="/machinelearninghard">实战强化</el-menu-item>
+        </el-submenu></el-col
       >
       <el-col :span="2"
         ><el-submenu index="6">
           <template slot="title">区块链</template>
-          <el-menu-item index="6-1" route="/blockchaineasy">基础进阶</el-menu-item>
-          <el-menu-item index="6-2" route="/blockchainhard">实战强化</el-menu-item>
+          <el-menu-item index="6-1" route="/blockchainforeword">学习路线&做题须知</el-menu-item>
+          <el-menu-item index="6-2" route="/blockchaineasy">基础进阶</el-menu-item>
+          <el-menu-item index="6-3" route="/blockchainhard">实战强化</el-menu-item>
         </el-submenu></el-col
       >
       <el-col :span="2"></el-col>
