@@ -17,8 +17,7 @@
     <div class="bg-main">
     </div>
     <div class="main-introduction">
-      <div class="home">
-        <div class="square">
+      <div class="square">
           <ul>
               <li></li>
               <li></li>
@@ -36,6 +35,7 @@
               <li></li>
           </ul>
         </div>
+      <div class="home">
         <div class="home-title1 animate__fadeInDown animate__slow animate__animated animate__delay-1s">链时代</div>
         <div class="home-title2 animate__fadeInDown animate__slower animate__animated animate__delay-2s">创造你的时代！</div>
         <div class="home-wrapper flex-row justify-between">
@@ -97,40 +97,47 @@
           />
         </div>
         <span class="text_15">“天地转，光阴迫，一万年太久，只争朝夕。”</span>
-        <div class="text-wrapper_5 flex-row justify-between">
-          <span class="text_16">2022年</span> 
-          <span class="text_17">2021年</span> 
-          <span class="text_18">2020年</span>
-        </div>
         <div class="group_9 flex-row justify-between">
           <div class="fame_wrapper">
             <div class="section_1 flex-col">
+              <br />
+              <div class="text_16">2022年</div> 
+              <br />
               <ul>
-                <li>2022年计算机软件著作权×2</li>
-                <li>2022年大学生创新创业训练计划项目国家级立项</li>
-                <li>2022年中国高校计算机大赛微信小程序应用开发赛国家三等奖</li>
-                <li>2022年中国高校计算机大赛网络技术挑战赛国家三等奖</li>
-                <li>2022年中国大学生服务外包创新创业大赛国家三等奖</li>
-                <li>2022年“挑战杯”大学生创业计划竞赛四川省金奖</li>
-                <li>2022年四川省计算机作品赛特等奖</li>
-                <li>2022年中国大学生服务外包创新创业大赛西南赛区一等奖</li>
-                <li>022年中国高校计算机大赛微信小程序应用开发赛西南赛区一等奖</li>
-                <li>2022年中国大学生计算机设计大赛四川省一等奖</li>
+                <li>计算机软件著作权×2</li>
+                <li>大学生创新创业训练计划项目国家级立项</li>
+                <li>中国高校计算机大赛微信小程序应用开发赛国家三等奖</li>
+                <li>中国高校计算机大赛网络技术挑战赛国家三等奖</li>
+                <li>中国大学生服务外包创新创业大赛国家三等奖</li>
+                <li>“挑战杯”大学生创业计划竞赛四川省金奖</li>
+                <li>四川省计算机作品赛特等奖</li>
+                <li>中国大学生服务外包创新创业大赛西南赛区一等奖</li>
+                <li>中国高校计算机大赛微信小程序应用开发赛西南赛区一等奖</li>
+                <li>中国大学生计算机设计大赛四川省一等奖</li>
               </ul>
             </div>
             <div class="section_2 flex-col">
+              <br />
+              <div class="text_17">2021年</div>
+              <br />
               <ul>
-                <li>2021年中国大学生计算机设计大赛国家二等奖</li>
-                <li>2021年中国大学生计算机设计大赛四川省一等奖</li>
-                <li>2021年中国国际“互联网+”创新创业大赛四川省一等奖</li>
-                <li>2021年蓝桥杯全国软件和信息技术专业人才大赛四川省二等奖</li>
-                <li>2021年全国大学生电子商务“创新、创意及创业”挑战赛四川省三等奖</li>
+                <li>中国大学生计算机设计大赛国家二等奖</li>
+                <li>中国大学生计算机设计大赛四川省一等奖</li>
+                <li>中国国际“互联网+”创新创业大赛四川省一等奖</li>
+                <li>蓝桥杯全国软件和信息技术专业人才大赛四川省二等奖</li>
+                <li>全国大学生电子商务“创新、创意及创业”挑战赛四川省三等奖</li>
               </ul>
             </div>
             <div class="section_3 flex-col">
+              <br />
+              <div class="text_18">2020年</div>
+              <br />
               <ul>
-                <li>2020年全国大学生信息安全竞赛国家二等奖</li>
-                <li>2020年中国大学生计算机设计大赛国家三等奖</li>
+                <li>全国大学生信息安全竞赛国家二等奖</li>
+                <li>中国大学生计算机设计大赛国家三等奖</li>
+                <li>蓝桥杯全国软件和信息技术专业人才大赛四川省二等奖</li>
+                <li>中国高校计算机大赛微信小程序应用开发赛西南赛区三等奖</li>
+                <li>四川省计算机作品赛四川省三等奖</li>
               </ul>
             </div>
           </div>
@@ -175,6 +182,9 @@ export default {
 </script>
 
 <style scoped>
+html {
+  perspective: 800px;
+}
 
 .main {
   background-color: rgba(255, 255, 255, 1);
@@ -577,10 +587,9 @@ export default {
   color: rgba(61, 61, 61, 1);
   font-size: 28px;
   font-family: Source Han Sans CN-Bold;
-  text-align: left;
   white-space: nowrap;
   line-height: 34px;
-  margin-top: 5px;
+  margin: 0 auto;
 }
 .text_17 {
   width: 94px;
@@ -589,10 +598,9 @@ export default {
   color: rgba(61, 61, 61, 1);
   font-size: 28px;
   font-family: Source Han Sans CN-Bold;
-  text-align: left;
   white-space: nowrap;
   line-height: 34px;
-  margin: 5px 0 0 361px;
+  margin: 0 auto;
 }
 .text_18 {
   width: 94px;
@@ -601,10 +609,9 @@ export default {
   color: rgba(61, 61, 61, 1);
   font-size: 28px;
   font-family: Source Han Sans CN-Bold;
-  text-align: left;
   white-space: nowrap;
   line-height: 34px;
-  margin-left: 361px;
+  margin: 0 auto;
 }
 
 .group_9 {
@@ -616,22 +623,59 @@ export default {
   width: 100%;
   height: 480px;
   display: flex;
+  text-align: left;
   justify-content: space-between;
   text-align: left;
+  margin-top: 75px;
 }
+/* .fame_wrapper ul li {
+  list-style: none;
+} */
 .section_1 {
-  width: 300px;
+  width: 340px;
   height: 480px;
+  transition: 1s;
+  box-shadow: 18px 18px 30px rgba(0,0,0,.1),-18px -18px 30px rgba(255,255,255,1);
+  border-radius: 20px;
+}
+.section_1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.section_1:hover {
+  transform: translateY(-20px);
 }
 .section_2 {
-  width: 300px;
+  width: 340px;
   height: 480px;
+  transition: 1s;
+  box-shadow: 18px 18px 30px rgba(0,0,0,.1),-18px -18px 30px rgba(255,255,255,1);
+  border-radius: 20px;
+}
+.section_2 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.section_2:hover {
+  transform: translateY(-20px);
 }
 .section_3 {
-  width: 300px;
-  height: 481px;
+  width: 340px;
+  height: 480px;
+  transition: 1s;
+  box-shadow: 18px 18px 30px rgba(0,0,0,.1),-18px -18px 30px rgba(255,255,255,1);
+  border-radius: 20px;
 }
-
+.section_3 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.section_3:hover {
+  transform: translateY(-20px);
+}
 .join-us {
   width: 100%;
   height: 400px;
@@ -758,7 +802,17 @@ export default {
 
 
 
-.home ul li{
+.square ul li{
+    position: absolute;
+    border: 2px solid #2f90b9;
+    /* background-color: rgb(60, 0, 255); */
+    width: 20px;
+    height: 20px;
+    list-style: none;
+    opacity: 0;
+    z-index: 0;
+}
+.circle ul li{
     position: absolute;
     border: 2px solid #2f90b9;
     /* background-color: rgb(60, 0, 255); */
@@ -846,7 +900,7 @@ export default {
     100%{
         transform: scale(5) rotateY(1000deg);
         opacity: 0;
-        bottom: 60vh;
+        bottom: 200vh;
         border-radius: 50%;
     }
 }
