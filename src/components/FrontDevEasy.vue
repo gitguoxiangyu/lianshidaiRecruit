@@ -197,74 +197,7 @@
           ><span> 不如吃茶去</span>
         </p>
         <p>&nbsp;</p>
-        <h2>
-          <a name="javascript" class="md-header-anchor"></a
-          ><span>JavaScript</span>
-        </h2>
-        <h3>
-          <a name="题目一----移动方块小游戏" class="md-header-anchor"></a
-          ><span>题目一 移动方块小游戏</span>
-        </h3>
-        <hr />
-        <p>
-          <strong><span>题目要求</span></strong
-          ><span> ： </span>
-        </p>
-        <p>
-          <span
-            >题目会给定一个demo，这个demo会包含一个需要你移动的方块1（小）和一个目标方块2（大），你需要完善程序，实现能够用键盘控制控制方块1的移动，当方块1完全进入方块2时，弹出一个提醒框
-            ” 游戏结束 “</span
-          >
-        </p>
-        <p>
-          <strong><span>基本功能点 </span></strong><span> ：</span>
-        </p>
-        <ul>
-          <li><span>键盘控制方块的移动</span></li>
-          <li><span>小方块进入大方块后出现弹窗</span></li>
-        </ul>
-        <p>
-          <strong><span>出题人</span></strong
-          ><span>：郭翔</span>
-        </p>
-        <p>
-          <strong><span>demo下载</span></strong
-          ><span><a href="../assets/demo.zip"></a></span>
-        </p>
-        <p>&nbsp;</p>
-        <h3>
-          <a name="题目二-🤩来点美照" class="md-header-anchor"></a
-          ><span>题目二 🤩来点美照 </span>
-        </h3>
-        <hr />
-        <blockquote>
-          <p>
-            <span>小明发现身边的人都非常的帅气&amp;漂亮（</span
-            ><del><span>特别是咱们电子科技大学的大一新生</span></del
-            ><span
-              >），但是小明作为一个不怎么社交的人，虽然总是会发现帅哥/美女，但是都还不认识。希望帅气/漂亮的同学们可以将自己的照片（明星的也行，照片没有严格的要求）制作成轮播图，帮一帮社恐的小明吧。</span
-            >
-          </p>
-        </blockquote>
-        <p>
-          <strong><span>题目要求：</span></strong>
-        </p>
-        <p>
-          <span>实现一个简单的轮播图，图片为自己的照片（或者喜欢的明星）</span
-          ><br />
-        </p>
-        <p>
-          <strong><span>基本功能点</span></strong
-          ><span> ：</span>
-        </p>
-        <ul>
-          <li><span>图片展示区能够定时自动切换图片</span></li>
-          <li><span>点击底部栏对应的标识点，可以直接切换到对应的图片</span></li>
-        </ul>
-        <p>
-          <strong><span>出题人：</span></strong
-          ><span> Olivia </span>
-        </p>
+        
       </div>
     </body>
   </div>
