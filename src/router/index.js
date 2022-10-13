@@ -5,6 +5,7 @@ export default new VueRouter({
     // 本来想根据方向做个子路由，发现无法直接跳转
     {
       path:'/',
+      component: ()=> import('../components/index.vue')
     },
     // C语言招新题
     {
