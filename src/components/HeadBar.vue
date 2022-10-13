@@ -37,8 +37,9 @@
       <el-col :span="2"
         ><el-submenu index="4">
           <template slot="title">机器学习</template>
-          <el-menu-item index="4-1" route="/machinelearningeasy">基础进阶</el-menu-item>
-          <el-menu-item index="4-2" route="/machinelearninghard">实战强化</el-menu-item>
+          <el-menu-item index="4-1" route="/machinelearningforeword">提交须知</el-menu-item>
+          <el-menu-item index="4-2" route="/machinelearningeasy">基础进阶</el-menu-item>
+          <el-menu-item index="4-3" route="/machinelearninghard">实战强化</el-menu-item>
         </el-submenu></el-col
       >
       <el-col :span="2"

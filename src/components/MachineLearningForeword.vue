@@ -2,69 +2,36 @@
   <div class="animate__animated animate__fadeIn root">
     <body class="typora-export os-windows">
       <div id="write" class="">
-        <h2>
-          <a name="3落地实操" class="md-header-anchor"></a
-          ><span>3.落地实操</span>
-        </h2>
-        <p><span>（二选一）建议以下实操在虚拟机上运行</span></p>
-        <ol start="">
-          <li>
-            <span
-              >以太坊ETH：简单入门solidity语言（类似于javascript）并编写ERC20合约和ICO合约。（可以借鉴别人的代码）但请注明各个函数的作用</span
-            >
-          </li>
-          <li>
-            <span
-              >Hyperledger
-              Fabric：简单学习go语言，并在网上寻找一个fabric链码的简单案例模仿实现，注明各个方法的作用。</span
-            >
-          </li>
-        </ol>
+        <h4>
+          <a name="机器学习方向招新题提交须知" class="md-header-anchor"></a
+          ><span>机器学习方向招新题提交须知</span>
+        </h4>
+        <hr />
         <p>
           <span
-            >建议在了解这俩种区块链平台之间的差别后，找到自己感兴趣的方向入门</span
+            >1.每道题对应一个文件夹，规范命名为“第n题+题目名称+姓名+学号”(中间用下划线_隔开)</span
           >
         </p>
         <p>
-          <strong
+          <span>2.每道题的文件夹中应包含两个子项目文件：(分别为.py和PDF，</span
+          ><strong><span>论文题目可以只包含PDF文件</span></strong
+          ><span>)</span>
+        </p>
+        <p><span>第一个文件：项目可执行文件(可以不局限于.py后缀文件)</span></p>
+        <p>
+          <span
+            >第二个文件：使用MarkDown格式记录做题时的思考，推荐每个具体的思考下附上相应的代码和运行图片，注意：</span
+          ><strong
             ><span
-              >hint：以上内容仅供学习，别炒虚拟货币。否则搏一搏，单车变废铁。</span
+              >将本项目的所有代码放在文档的最后，并且一定要将代码放在代码块中，最后将这个.md文件转为PDF。</span
             ></strong
           >
         </p>
-        <h2>
-          <a name="4进阶题学有余力的同学可以尝试）" class="md-header-anchor"></a
-          ><span>4.进阶题（学有余力的同学可以尝试）</span>
-        </h2>
-        <p><span>（二选一）</span></p>
-        <ol start="">
-          <li><span>将编写的合约部署到测试链上（尝试remix本地部署）</span></li>
-          <li><span>在虚拟机上部署好fabric测试环境。</span></li>
-        </ol>
-        <h2>
-          <a name="参考资料" class="md-header-anchor"></a><span>参考资料</span>
-        </h2>
         <p>
-          <a
-            href="https://www.bilibili.com/video/BV1NJ411D7rf?from=search&amp;seid=5949939177329357175&amp;spm_id_from=333.337.0.0"
-            ><span>尚硅谷的教材（有点老）</span></a
-          >
-        </p>
-        <p>
-          <a href="https://www.r9it.com/20180726/create-token.html"
-            ><span>ERC20智能合约</span></a
-          ><span>（供参考）</span>
-        </p>
-        <p>
-          <a
-            href="https://learnblockchain.cn/books/enterprise/chapter3_03%20hyperledger_fabric_architecture.html"
-            ><span>Hyperledger Fabric系统架构</span></a
-          >
-        </p>
-        <p>
-          <a
-            href="https://www.bilibili.com/video/BV1H4411Q7rw/?vd_source=48fb4c997e5ec5e1d72c1e17f605016b"
-            ><span>普林斯顿公开课《比特币与加密货币技术》区块链技术</span></a
+          <span
+            >3.机器学习方向所有题目打包为一个整体的文件夹，命名为“姓名+学号+第x次提交”(中间用下划线_隔开),将整体文件夹转为压缩文档后发送到QQ邮箱：</span
+          ><a href="mailto:3077677727@qq.com" target="_blank" class="url"
+            >3077677727@qq.com</a
           >
         </p>
         <p>&nbsp;</p>
@@ -74,25 +41,20 @@
 </template>
 
 <script>
-import "animate.css";
 export default {};
 </script>
 
 <style scoped>
+/* 附加css */
+* {
+  text-align: left;
+}
 .root {
   background-color: rgb(226, 226, 226) !important;
   padding: 0px 30px;
 }
-p {
-  text-align: left;
-}
-li {
-  text-align: left;
-}
-* {
-  text-align: left;
-}
-.html {
+
+html {
   overflow-x: initial !important;
 }
 :root {
@@ -102,7 +64,7 @@ li {
   --select-text-font-color: auto;
   --monospace: "Lucida Console", Consolas, "Courier", monospace;
 }
-.html {
+html {
   font-size: 14px;
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -122,7 +84,7 @@ body {
   line-height: 1.42857;
   overflow-x: hidden;
   background: inherit;
-    position: relative;
+  position: relative;
   top: -60px;
   border-radius: 3%;
   tab-size: 4;
@@ -144,7 +106,6 @@ a:hover {
   color: var(--select-text-font-color);
 }
 #write {
-  background-color: white;
   margin: 0px auto;
   height: auto;
   width: inherit;
@@ -476,7 +437,7 @@ li > :first-child {
 }
 @media print {
   body,
-  .html {
+  html {
     border: 1px solid transparent;
     height: 99%;
     break-after: avoid;
@@ -491,7 +452,7 @@ li > :first-child {
   .typora-export * {
     -webkit-print-color-adjust: exact;
   }
-  .html.blink-to-pdf {
+  html.blink-to-pdf {
     font-size: 13px;
   }
   .typora-export #write {
@@ -788,8 +749,8 @@ mark {
   background: rgb(255, 255, 0);
   color: rgb(0, 0, 0);
 }
-.md-.html-inline .md-plain,
-.md-.html-inline strong,
+.md-html-inline .md-plain,
+.md-html-inline strong,
 mark .md-inline-math,
 mark strong {
   color: inherit;
@@ -810,7 +771,7 @@ mark .md-meta {
 /* open-sans-italic - latin-ext_latin */
 /* open-sans-700 - latin-ext_latin */
 /* open-sans-700italic - latin-ext_latin */
-.html {
+html {
   font-size: 16px;
 }
 

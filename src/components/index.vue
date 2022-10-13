@@ -1,6 +1,6 @@
 <template>
 
-<div class="main">
+<div class="main animate__animated animate__fadeOut">
     <div class="bg-image">
       <div class="nav-top">
         <!-- <div class="studio-title">链时代工作室</div>

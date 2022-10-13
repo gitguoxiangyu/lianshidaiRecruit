@@ -40,6 +40,10 @@ export default new VueRouter({
     },
     // 机器学习
     {
+      path:'/machinelearningforeword',
+      component: ()=> import('../components/MachineLearningForeword.vue')
+    },
+    {
       path:'/machinelearningeasy',
       component: ()=> import('../components/MachineLearningBasic.vue')
     },
