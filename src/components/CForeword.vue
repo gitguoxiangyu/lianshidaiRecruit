@@ -2,75 +2,28 @@
   <div class="animate__animated animate__fadeIn root">
     <body class="typora-export os-windows">
       <div id="write" class="">
-        
         <h2>
-          <a name="javascript" class="md-header-anchor"></a
-          ><span>JavaScript</span>
+          <a name="做题须知" class="md-header-anchor"></a><span>做题须知</span>
         </h2>
-        <h3>
-          <a name="题目一----移动方块小游戏" class="md-header-anchor"></a
-          ><span>题目一 移动方块小游戏</span>
-        </h3>
-        <hr />
         <p>
-          <strong><span>题目要求</span></strong
-          ><span> ： </span>
+          <span>1.招新题完成后请提交至邮箱 </span><code>823493019@qq.com</code>
+        </p>
+        <p><span>2.招新题请整合成一个压缩包后，放至附件上提交</span></p>
+        <p>
+          <span>3.请在主题栏目上填写相关信息，比如 </span
+          ><code>链时代工作室C语言招新题 大一 高豪 已做题目1 2 3 4 5 6 7 8</code
+          ><span> </span>
         </p>
         <p>
           <span
-            >题目会给定一个demo，这个demo会包含一个需要你移动的方块1（小）和一个目标方块2（大），你需要完善程序，实现能够用键盘控制控制方块1的移动，当方块1完全进入方块2时，弹出一个提醒框
-            ” 游戏结束 “</span
+            >4.大一新生至少需要做前三道必做题，能将4-6道题目昨晚更好，对于之后的学习会有所帮助，大二学生需要将算法题全部做完，包括附加题</span
           >
         </p>
         <p>
-          <strong><span>基本功能点 </span></strong><span> ：</span>
-        </p>
-        <ul>
-          <li><span>键盘控制方块的移动</span></li>
-          <li><span>小方块进入大方块后出现弹窗</span></li>
-        </ul>
-        <p>
-          <strong><span>出题人</span></strong
-          ><span>：郭翔</span>
-        </p>
-        <p>
-          <strong><span></span></strong
-          ><span><a href="http://101.35.193.46:80/demo.zip">demo下载</a></span>
+          <span>5.对题目有任何问题的，欢迎QQ联系 QQ:</span
+          ><code>823493019</code>
         </p>
         <p>&nbsp;</p>
-        <h3>
-          <a name="题目二-🤩来点美照" class="md-header-anchor"></a
-          ><span>题目二 🤩来点美照 </span>
-        </h3>
-        <hr />
-        <blockquote>
-          <p>
-            <span>小明发现身边的人都非常的帅气&amp;漂亮（</span
-            ><del><span>特别是咱们电子科技大学的大一新生</span></del
-            ><span
-              >），但是小明作为一个不怎么社交的人，虽然总是会发现帅哥/美女，但是都还不认识。希望帅气/漂亮的同学们可以将自己的照片（明星的也行，照片没有严格的要求）制作成轮播图，帮一帮社恐的小明吧。</span
-            >
-          </p>
-        </blockquote>
-        <p>
-          <strong><span>题目要求：</span></strong>
-        </p>
-        <p>
-          <span>实现一个简单的轮播图，图片为自己的照片（或者喜欢的明星）</span
-          ><br />
-        </p>
-        <p>
-          <strong><span>基本功能点</span></strong
-          ><span> ：</span>
-        </p>
-        <ul>
-          <li><span>图片展示区能够定时自动切换图片</span></li>
-          <li><span>点击底部栏对应的标识点，可以直接切换到对应的图片</span></li>
-        </ul>
-        <p>
-          <strong><span>出题人：</span></strong
-          ><span> 王梓睿 </span>
-        </p>
       </div>
     </body>
   </div>
@@ -795,12 +748,297 @@ mark .md-meta {
   opacity: 0.3 !important;
 }
 
+.CodeMirror {
+  height: auto;
+}
+.CodeMirror.cm-s-inner {
+  background: inherit;
+}
+.CodeMirror-scroll {
+  overflow: auto hidden;
+  z-index: 3;
+}
+.CodeMirror-gutter-filler,
+.CodeMirror-scrollbar-filler {
+  background-color: rgb(255, 255, 255);
+}
+.CodeMirror-gutters {
+  border-right: 1px solid rgb(221, 221, 221);
+  background: inherit;
+  white-space: nowrap;
+}
+.CodeMirror-linenumber {
+  padding: 0px 3px 0px 5px;
+  text-align: right;
+  color: rgb(153, 153, 153);
+}
+.cm-s-inner .cm-keyword {
+  color: rgb(119, 0, 136);
+}
+.cm-s-inner .cm-atom,
+.cm-s-inner.cm-atom {
+  color: rgb(34, 17, 153);
+}
+.cm-s-inner .cm-number {
+  color: rgb(17, 102, 68);
+}
+.cm-s-inner .cm-def {
+  color: rgb(0, 0, 255);
+}
+.cm-s-inner .cm-variable {
+  color: rgb(0, 0, 0);
+}
+.cm-s-inner .cm-variable-2 {
+  color: rgb(0, 85, 170);
+}
+.cm-s-inner .cm-variable-3 {
+  color: rgb(0, 136, 85);
+}
+.cm-s-inner .cm-string {
+  color: rgb(170, 17, 17);
+}
+.cm-s-inner .cm-property {
+  color: rgb(0, 0, 0);
+}
+.cm-s-inner .cm-operator {
+  color: rgb(152, 26, 26);
+}
+.cm-s-inner .cm-comment,
+.cm-s-inner.cm-comment {
+  color: rgb(170, 85, 0);
+}
+.cm-s-inner .cm-string-2 {
+  color: rgb(255, 85, 0);
+}
+.cm-s-inner .cm-meta {
+  color: rgb(85, 85, 85);
+}
+.cm-s-inner .cm-qualifier {
+  color: rgb(85, 85, 85);
+}
+.cm-s-inner .cm-builtin {
+  color: rgb(51, 0, 170);
+}
+.cm-s-inner .cm-bracket {
+  color: rgb(153, 153, 119);
+}
+.cm-s-inner .cm-tag {
+  color: rgb(17, 119, 0);
+}
+.cm-s-inner .cm-attribute {
+  color: rgb(0, 0, 204);
+}
+.cm-s-inner .cm-header,
+.cm-s-inner.cm-header {
+  color: rgb(0, 0, 255);
+}
+.cm-s-inner .cm-quote,
+.cm-s-inner.cm-quote {
+  color: rgb(0, 153, 0);
+}
+.cm-s-inner .cm-hr,
+.cm-s-inner.cm-hr {
+  color: rgb(153, 153, 153);
+}
+.cm-s-inner .cm-link,
+.cm-s-inner.cm-link {
+  color: rgb(0, 0, 204);
+}
+.cm-negative {
+  color: rgb(221, 68, 68);
+}
+.cm-positive {
+  color: rgb(34, 153, 34);
+}
+.cm-header,
+.cm-strong {
+  font-weight: 700;
+}
+.cm-del {
+  text-decoration: line-through;
+}
+.cm-em {
+  font-style: italic;
+}
+.cm-link {
+  text-decoration: underline;
+}
+.cm-error {
+  color: red;
+}
+.cm-invalidchar {
+  color: red;
+}
+.cm-constant {
+  color: rgb(38, 139, 210);
+}
+.cm-defined {
+  color: rgb(181, 137, 0);
+}
+div.CodeMirror span.CodeMirror-matchingbracket {
+  color: rgb(0, 255, 0);
+}
+div.CodeMirror span.CodeMirror-nonmatchingbracket {
+  color: rgb(255, 34, 34);
+}
+.cm-s-inner .CodeMirror-activeline-background {
+  background: inherit;
+}
+.CodeMirror {
+  position: relative;
+  overflow: hidden;
+}
+.CodeMirror-scroll {
+  height: 100%;
+  outline: 0px;
+  position: relative;
+  box-sizing: content-box;
+  background: inherit;
+}
+.CodeMirror-sizer {
+  position: relative;
+}
+.CodeMirror-gutter-filler,
+.CodeMirror-hscrollbar,
+.CodeMirror-scrollbar-filler,
+.CodeMirror-vscrollbar {
+  position: absolute;
+  z-index: 6;
+  display: none;
+}
+.CodeMirror-vscrollbar {
+  right: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.CodeMirror-hscrollbar {
+  bottom: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.CodeMirror-scrollbar-filler {
+  right: 0px;
+  bottom: 0px;
+}
+.CodeMirror-gutter-filler {
+  left: 0px;
+  bottom: 0px;
+}
+.CodeMirror-gutters {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding-bottom: 30px;
+  z-index: 3;
+}
+.CodeMirror-gutter {
+  white-space: normal;
+  height: 100%;
+  box-sizing: content-box;
+  padding-bottom: 30px;
+  margin-bottom: -32px;
+  display: inline-block;
+}
+.CodeMirror-gutter-wrapper {
+  position: absolute;
+  z-index: 4;
+  background: 0px 0px !important;
+  border: none !important;
+}
+.CodeMirror-gutter-background {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  z-index: 4;
+}
+.CodeMirror-gutter-elt {
+  position: absolute;
+  cursor: default;
+  z-index: 4;
+}
+.CodeMirror-lines {
+  cursor: text;
+}
+.CodeMirror pre {
+  border-radius: 0px;
+  border-width: 0px;
+  background: 0px 0px;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0px;
+  white-space: pre;
+  overflow-wrap: normal;
+  color: inherit;
+  z-index: 2;
+  position: relative;
+  overflow: visible;
+}
+.CodeMirror-wrap pre {
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: normal;
+}
+.CodeMirror-code pre {
+  border-right: 30px solid transparent;
+  width: fit-content;
+}
+.CodeMirror-wrap .CodeMirror-code pre {
+  border-right: none;
+  width: auto;
+}
+.CodeMirror-linebackground {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 0;
+}
+.CodeMirror-linewidget {
+  position: relative;
+  z-index: 2;
+  overflow: auto;
+}
+.CodeMirror-wrap .CodeMirror-scroll {
+  overflow-x: hidden;
+}
+.CodeMirror-measure {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+  visibility: hidden;
+}
+.CodeMirror-measure pre {
+  position: static;
+}
+.CodeMirror div.CodeMirror-cursor {
+  position: absolute;
+  visibility: hidden;
+  border-right: none;
+  width: 0px;
+}
+.CodeMirror div.CodeMirror-cursor {
+  visibility: hidden;
+}
+.CodeMirror-focused div.CodeMirror-cursor {
+  visibility: inherit;
+}
+.cm-searching {
+  background: rgba(255, 255, 0, 0.4);
+}
+@media print {
+  .CodeMirror div.CodeMirror-cursor {
+    visibility: hidden;
+  }
+}
+
 :root {
   --side-bar-bg-color: #fafafa;
   --control-text-color: #777;
 }
 
-/*  */
+/* @include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext); */
 
 /* open-sans-regular - latin-ext_latin */
 /* open-sans-italic - latin-ext_latin */

@@ -2,74 +2,50 @@
   <div class="animate__animated animate__fadeIn root">
     <body class="typora-export os-windows">
       <div id="write" class="">
-        
-        <h2>
-          <a name="javascript" class="md-header-anchor"></a
-          ><span>JavaScript</span>
-        </h2>
-        <h3>
-          <a name="题目一----移动方块小游戏" class="md-header-anchor"></a
-          ><span>题目一 移动方块小游戏</span>
-        </h3>
-        <hr />
-        <p>
-          <strong><span>题目要求</span></strong
-          ><span> ： </span>
-        </p>
+        <h1>
+          <a name="做题须知" class="md-header-anchor"></a><span>做题须知</span>
+        </h1>
+        <ol start="">
+          <li>
+            <span>招新题完成后请提交至邮箱 </span
+            ><a href="mailto:1283787357@qq.com" target="_blank" class="url"
+              >1283787357@qq.com</a
+            ><span>`</span>
+          </li>
+          <li><span>招新题请整合成一个压缩包后，放至附件上提交</span></li>
+          <li>
+            <span>请在主题栏目上填写相关信息，比如 </span
+            ><strong
+              ><span>C语言招新题 高豪</span><del><span>giegie</span></del
+              ><span> 2021060606006</span></strong
+            ><span> </span>
+          </li>
+          <li>
+            <span
+              >对题目有任何问题的，或者想就题目进行交流的，欢迎在群里@各位出题人</span
+            >
+          </li>
+          <li>
+            <span
+              >如果可以的话，大家可以使用MarkDown格式记录做题时的思考，可以附上相应的运行图片,转成pdf放在压缩包内一起上传</span
+            >
+          </li>
+        </ol>
+        <p>&nbsp;</p>
+        <h1>
+          <a name="学习路线" class="md-header-anchor"></a><span>学习路线</span>
+        </h1>
+        <p><span>HTML，CSS，JavaScript建议渐进的学习</span></p>
         <p>
           <span
-            >题目会给定一个demo，这个demo会包含一个需要你移动的方块1（小）和一个目标方块2（大），你需要完善程序，实现能够用键盘控制控制方块1的移动，当方块1完全进入方块2时，弹出一个提醒框
-            ” 游戏结束 “</span
+            >推荐到B站搜索相关的高质量学习资料，或者MDN，W3Cschool等网站进行学习</span
           >
         </p>
         <p>
-          <strong><span>基本功能点 </span></strong><span> ：</span>
-        </p>
-        <ul>
-          <li><span>键盘控制方块的移动</span></li>
-          <li><span>小方块进入大方块后出现弹窗</span></li>
-        </ul>
-        <p>
-          <strong><span>出题人</span></strong
-          ><span>：郭翔</span>
-        </p>
-        <p>
-          <strong><span></span></strong
-          ><span><a href="http://101.35.193.46:80/demo.zip">demo下载</a></span>
-        </p>
-        <p>&nbsp;</p>
-        <h3>
-          <a name="题目二-🤩来点美照" class="md-header-anchor"></a
-          ><span>题目二 🤩来点美照 </span>
-        </h3>
-        <hr />
-        <blockquote>
-          <p>
-            <span>小明发现身边的人都非常的帅气&amp;漂亮（</span
-            ><del><span>特别是咱们电子科技大学的大一新生</span></del
-            ><span
-              >），但是小明作为一个不怎么社交的人，虽然总是会发现帅哥/美女，但是都还不认识。希望帅气/漂亮的同学们可以将自己的照片（明星的也行，照片没有严格的要求）制作成轮播图，帮一帮社恐的小明吧。</span
-            >
-          </p>
-        </blockquote>
-        <p>
-          <strong><span>题目要求：</span></strong>
-        </p>
-        <p>
-          <span>实现一个简单的轮播图，图片为自己的照片（或者喜欢的明星）</span
-          ><br />
-        </p>
-        <p>
-          <strong><span>基本功能点</span></strong
-          ><span> ：</span>
-        </p>
-        <ul>
-          <li><span>图片展示区能够定时自动切换图片</span></li>
-          <li><span>点击底部栏对应的标识点，可以直接切换到对应的图片</span></li>
-        </ul>
-        <p>
-          <strong><span>出题人：</span></strong
-          ><span> 王梓睿 </span>
+          <del><span>因为学长太懒了😏，</span></del
+          ><span
+            >这里学长学姐就不做相关视频和其它资源的具体推荐了，锻炼大家的信息检索能力和资源获取能力</span
+          >
         </p>
       </div>
     </body>

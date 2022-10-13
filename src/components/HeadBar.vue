@@ -15,14 +15,16 @@
       <el-col :span="2"
         ><el-submenu index="1">
           <template slot="title">C语言</template>
-          <el-menu-item index="1-1" route="/cnecessity">必做题</el-menu-item>
-          <el-menu-item index="1-2" route="/cbasic">进阶题</el-menu-item>
-          <el-menu-item index="1-3" route="/cadded">附加题</el-menu-item>
+          <el-menu-item index="1-1" route="/cforeword">做题须知</el-menu-item>
+          <el-menu-item index="1-2" route="/cnecessity">必做题（大一）</el-menu-item>
+          <el-menu-item index="1-3" route="/cbasic">进阶题</el-menu-item>
+          <el-menu-item index="1-4" route="/cadded">附加题</el-menu-item>
         </el-submenu></el-col
       >
       <el-col :span="2"
         ><el-submenu index="3">
           <template slot="title">前端</template>
+          <el-menu-item index="3-3" route="/frontdevforeword">做题须知&学习路线</el-menu-item>
           <el-menu-item index="3-1" route="/frontdevhtmlcss">HTML和CSS基础</el-menu-item>
           <el-menu-item index="3-2" route="/frontdevjs">JS进阶</el-menu-item>
         </el-submenu></el-col

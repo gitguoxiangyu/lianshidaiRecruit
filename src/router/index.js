@@ -9,6 +9,10 @@ export default new VueRouter({
     },
     // C语言招新题
     {
+      path:'/cforeword',
+      component: ()=> import('../components/CForeword.vue')
+    },
+    {
       path:'/cnecessity',
       component: ()=> import('../components/CNecessity.vue')
     },
@@ -30,6 +34,10 @@ export default new VueRouter({
       component: ()=> import('../components/BackDevHard.vue')
     },
     //前端招新题
+    {
+      path:'/frontdevforeword',
+      component: ()=> import('../components/FrontDevForeword.vue')
+    },
     {
       path:'/frontdevhtmlcss',
       component: ()=> import('../components/FrontDevEasy.vue')
