@@ -157,10 +157,15 @@
     </div>
     <div class="bottom">
       <div class="bottom-button-box">
-          <div class="text-wrapper_2">HOME</div>
+          <!-- <div class="text-wrapper_2">HOME</div>
           <div class="text-wrapper_2">About&nbsp;Us</div>
           <div class="text-wrapper_2">Honors</div>
-          <div class="text-wrapper_2">Join&nbsp;Us</div>
+          <div class="text-wrapper_2">Join&nbsp;Us</div> -->
+          <button class="text-wrapper_2" @click="ToHome">HOME</button>
+          <button class="text-wrapper_2" @click="ToAboutUs">About&nbsp;Us</button>
+          <button class="text-wrapper_2" @click="ToHonors">Honors</button>
+          <button class="text-wrapper_2" @click="ToJoinUs">Join&nbsp;Us</button>
+
       </div>
       <div class="bottom-text">
           Block-Chain&nbsp;Studio&nbsp;||&nbsp;Developed&nbsp;by&nbsp;vue3
@@ -174,6 +179,33 @@
 import 'animate.css';
 export default {
   name: "Index",
+  methods: {
+    ToHome() {
+      window.scrollTo({
+        top: 684,
+        behavior: "instant"
+      })
+    },
+    ToAboutUs() {
+      window.scrollTo({
+        top: 684+660,
+        behavior: "instant"
+      })
+    },
+    ToHonors() {
+      window.scrollTo({
+        top: 684+660+765,
+        behavior: "instant"
+      })
+    },
+    ToJoinUs() {
+      window.scrollTo({
+        top: 684+660+765+650,
+        behavior: "instant"
+      })
+    }
+  }
+
 }
 // let section_1 = document.getElementsByClassName("section_1");
 // let section_2 = document.getElementsByClassName("section_2");
@@ -617,7 +649,7 @@ html {
 .group_9 {
   width: 1200px;
   height: 480px;
-  margin: 6px 0 0 200px;
+  margin: 6px auto;
 }
 .fame_wrapper {
   width: 100%;
@@ -762,9 +794,9 @@ html {
 
 .bottom {
   background-color: rgba(33, 119, 184, 1);
-  width: 1590px;
+  width: 92%;
   height: 100px;
-  margin: -1px 0 0 50px;
+  margin: -1px 4%;
   overflow: hidden;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.4);
 }
@@ -781,11 +813,18 @@ html {
   font-size: 20px;
   font-family: Source Han Sans CN-Bold;
   /* text-decoration: underline; */
+  background-color: rgba(33, 119, 184, 1);
+  border: none;
   text-align: center;
   white-space: nowrap;
   line-height: 29px;
   margin: 4px 0 0 4px;
 }
+.text-wrapper_2:hover {
+  background: #51C4D3;
+  cursor: pointer;
+}
+
 .bottom-text {
   width: 415px;
   height: 33px;
