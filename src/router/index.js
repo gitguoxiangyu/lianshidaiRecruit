@@ -75,6 +75,19 @@ export default new VueRouter({
     {
       path:'/blockchainforeword',
       component: ()=> import('../components/BlockChainForeword.vue')
+    },
+    // 网络招新题
+    {
+      path:'/networkeasy',
+      component: ()=> import('../components/NetworkEasy.vue')
+    },
+    {
+      path:'/networkhard',
+      component: ()=> import('../components/NetworkHard.vue')
+    },
+    {
+      path:'/networkforeword',
+      component: ()=> import('../components/NetworkForeword.vue')
     }
   ]
 })

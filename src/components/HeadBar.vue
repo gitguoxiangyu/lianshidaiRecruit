@@ -10,7 +10,7 @@
     active-text-color="rgba(70, 151, 208,1)"
   >
     <el-row :gutter="0">
-      <el-col :span="10"><div class="title">链时代工作室</div></el-col>
+      <el-col :span="9"><div class="title">链时代工作室</div></el-col>
       <el-col :span="2"><el-menu-item index="0" route="/">Home</el-menu-item></el-col>
       <el-col :span="2"
         ><el-submenu index="1">
@@ -53,7 +53,15 @@
           <el-menu-item index="6-3" route="/blockchainhard">实战强化</el-menu-item>
         </el-submenu></el-col
       >
-      <el-col :span="2"></el-col>
+      <el-col :span="2"
+        ><el-submenu index="7">
+          <template slot="title">网络</template>
+          <el-menu-item index="7-1" route="/networkforeword">做题须知</el-menu-item>
+          <el-menu-item index="7-2" route="/networkeasy">基础进阶</el-menu-item>
+          <el-menu-item index="7-3" route="/networkhard">实战强化</el-menu-item>
+        </el-submenu></el-col
+      >
+      <el-col :span="1"></el-col>
     </el-row>
   </el-menu>
 </template>
