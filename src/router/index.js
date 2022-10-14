@@ -33,6 +33,10 @@ export default new VueRouter({
       path:'/backdevhard',
       component: ()=> import('../components/BackDevHard.vue')
     },
+    {
+      path:'/backdevdirect',
+      component: ()=> import('../components/BackDevDirect.vue')
+    },
     //前端招新题
     {
       path:'/frontdevforeword',

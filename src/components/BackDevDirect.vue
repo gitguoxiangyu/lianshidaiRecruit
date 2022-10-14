@@ -2,319 +2,104 @@
   <div class="animate__animated animate__fadeIn root">
     <body class="typora-export os-windows">
       <div id="write" class="">
-        <h2>
-          <a name="3-线性回归问题" class="md-header-anchor"></a
-          ><span>3 线性回归问题</span>
-        </h2>
-        <hr />
-        <p><span>出题人:邢锦源</span></p>
-        <p><span>QQ:407234512（欢迎提问与交流）</span></p>
-        <hr />
-        <h3>
-          <a name="31-引入" class="md-header-anchor"></a><span>3.1 引入:</span>
-        </h3>
-        <hr />
+        <h1>
+          <a name="后端招新题" class="md-header-anchor"></a
+          ><span>后端招新题</span>
+        </h1>
         <p>
-          <span
-            >现在你要正式进入机器学习的代码实践环节了,下面先来进行线性回归的学习吧.线性回归既是你迈入机器学习的第一个阶梯,也是今后机器学习方向的基础.相信你通过一个月的努力,一定能有所收获.</span
+          <span>大二的同学只需完成第八题（欢迎有一定基础的大一大佬来进行尝试）,打包发送到邮箱</span
+          ><a href="mailto:lxx18912405977@outlook.com"
+            ><span>lxx18912405977@outlook.com</span></a
+          ><span>.</span>
+        </p>
+        <p>
+          <strong
+            ><span
+              >如果对题目理解有疑问的,欢迎QQ联系. QQ: 2356176435.</span
+            ></strong
           >
         </p>
-        <hr />
-        <h3>
-          <a name="32-题目" class="md-header-anchor"></a><span>3.2 题目：</span>
-        </h3>
-        <hr />
-        <h4>
-          <a name="321-基础要求" class="md-header-anchor"></a
-          ><span>3.2.1 基础要求</span>
-        </h4>
-        <ol start="">
-          <li>
-            <span
-              >调用sklearn库的线性回归模型完成训练,
-              找到一条使得mse最小的直线.</span
-            >
-          </li>
-          <li>
-            <span
-              >请自己创建一个简单的数据集,
-              并在不调用任何线性回归库的情况下实现线性回归运算(即自己编写线性回归模型),
-              如下图:</span
-            >
-          </li>
-        </ol>
-        <p><img src="../assets/3.2.1.png" referrerpolicy="no-referrer" /></p>
-        <hr />
-        <h4>
-          <a name="322-进阶要求" class="md-header-anchor"></a
-          ><span>3.2.2 进阶要求</span>
-        </h4>
-        <ol start="">
-          <li>
-            <span
-              >使用sklearn库中的波士顿房价数据集,
-              分别用岭回归和梯度下降进行线性回归来预测房价,
-              并对两种方式进行比较.</span
-            >
-          </li>
-        </ol>
-        <hr />
-        <h3>
-          <a name="33-相关资料" class="md-header-anchor"></a
-          ><span>3.3 相关资料</span>
-        </h3>
-        <hr />
-        <h4>
-          <a name="331-数据集连接" class="md-header-anchor" href="https://pan.baidu.com/s/1b8Ci3Cl7ItTFgMNqdzqE4Q"></a
-          ><span>3.3.1 数据集链接</span>
-        </h4>
-        <p>
-          <span>数据集链接:</span><span> </span><span> </span
-          ><a
-            href="https://pan.baidu.com/s/1b8Ci3Cl7ItTFgMNqdzqE4Q"
-            target="_blank"
-            class="url"
-            >https://pan.baidu.com/s/1b8Ci3Cl7ItTFgMNqdzqE4Q</a
-          ><span> </span>
-        </p>
-        <p><span>提取码: ruab </span></p>
-        <hr />
-        <h4>
-          <a name="332-学习资料" class="md-header-anchor"></a
-          ><span>3.3.2 学习资料:</span>
-        </h4>
-        <ol start="">
-          <li><span>sklearn库学习</span></li>
-        </ol>
-        <ol start="2">
-          <li>
-            <span
-              >AI算法工程师经典面试题目之线性回归（总负责人出品，记得关注+一键三连呐）</span
-            >
-          </li>
-        </ol>
-        <hr />
-        <p>&nbsp;</p>
         <h2>
-          <a name="4-逻辑回归完成二分类问题" class="md-header-anchor"></a
-          ><span>4 逻辑回归完成二分类问题</span>
+          <a name="8-大二专享" class="md-header-anchor"></a
+          ><span>8. 大二专享</span>
         </h2>
-        <hr />
-        <p><span>出题人：陈昊</span></p>
-        <p><span>QQ：3077677727（欢迎提问与交流）</span></p>
-        <hr />
-        <h3>
-          <a name="41-引入" class="md-header-anchor"></a><span>4.1 引入：</span>
-        </h3>
-        <hr />
+        <p>
+          <img
+            src="https://mmbiz.qpic.cn/mmbiz_png/QCu849YTaIOiamYOC32UtOHfPvHlPsEic51CIhaHmODDuEaGanvuZJfVwg2x2yS3pyhicbiagbY7dOXaqmYK5JddEw/640"
+            referrerpolicy="no-referrer"
+          />
+        </p>
+        <p><span>这是一个SpringMVC的运行流程图,下面是它运行的过程.</span></p>
+        <ol start="">
+          <li><span>用户发送请求至前端控制器DispatcherServlet.</span></li>
+          <li>
+            <span
+              >DispatcherServlet收到请求调用HandlerMapping处理器映射器.</span
+            >
+          </li>
+          <li>
+            <span
+              >处理器映射器根据请求url找到具体的处理器，生成处理器对象及处理器拦截器(如果有则生成)一并返回给DispatcherServlet.</span
+            >
+          </li>
+          <li>
+            <span
+              >DispatcherServlet通过HandlerAdapter处理器适配器调用处理器.</span
+            >
+          </li>
+          <li>
+            <span
+              >执行处理器(Controller，也叫后端控制器)。Controller执行完成返回ModelAndView.</span
+            >
+          </li>
+          <li>
+            <span
+              >HandlerAdapter将controller执行结果ModelAndView返回给DispatcherServlet.</span
+            >
+          </li>
+          <li>
+            <span
+              >DispatcherServlet将ModelAndView传给ViewReslover视图解析器.</span
+            >
+          </li>
+          <li><span>ViewReslover解析后返回具体View.</span></li>
+          <li>
+            <span
+              >DispatcherServlet对View进行渲染视图（即将模型数据填充至视图中)</span
+            >
+          </li>
+          <li><span>DispatcherServlet响应用户.</span></li>
+        </ol>
         <p>
           <span
-            >在线性回归问题中，有一类场景较为特殊，即对概率的预测。在这种场景中，概率可以用于解决分类问题，模型的输出是输入样本属于某个类别的概率。比如钰涵学姐在沙软学习一年后面临方向选择，她可能选择的是网安方向，也可能是嵌入式方向，还可能这两个方向都不是，由此可以看出分类问题的特殊之处在于：输出要有明确的取值范围[0,
-            1]和物理意义(概率)。由于分类问题在人工智能场景中有着丰富的应用，因此被抓出来进行了专门的处理与优化。</span
+            >请你在阅读Spring
+            MVC框架源码的基础上,仿照其设计思想实现一套自己的Spring
+            MVC框架.</span
           >
         </p>
-        <hr />
-        <h3>
-          <a name="42-题目" class="md-header-anchor"></a><span>4.2 题目</span>
-        </h3>
-        <hr />
-        <h4>
-          <a name="421-基础要求" class="md-header-anchor"></a
-          ><span>4.2.1 基础要求：</span>
-        </h4>
-        <ol start="">
-          <li>
-            <span
-              >在python中安装numpy、pandas、matplotlib、sklearn库并简单了解其应用方式，为后续的数据处理、图像绘制、模型导入做准备；</span
-            >
-          </li>
-          <li>
-            <span
-              >读入给出的数据点和其对应的类别(给的数据中每一行的三个数据分别为横坐标、纵坐标和其对应的类别)，使用matplotlib库绘制出散点图，可以参考下图：(能画出来就行，不一定要做出下图效果)</span
-            >
-          </li>
-        </ol>
-        <p><img src="../assets/4.2.1.png" /></p>
-        <ol start="3">
-          <li>
-            <span
-              >调库进行逻辑回归分类，输出拟合效果最佳的直线(即输出斜率k和截距b)，最好将输出的直线在图中一并展示，便于直观判断结果准确性。</span
-            >
-          </li>
-        </ol>
-        <hr />
-        <h4>
-          <a name="422-进阶要求不要求一定做出来" class="md-header-anchor"></a
-          ><span>4.2.2 进阶要求：(不要求一定做出来)</span>
-        </h4>
-        <ol start="">
-          <li>
-            <span
-              >现在你已经能调库完成逻辑回归的二分类啦，我们也提出进阶要求：不调用库函数，自主编写逻辑回归的代码，并使用梯度下降法完成“山顶”到“山谷”的过程(最小化损失函数)，最后输出最优直线。</span
-            >
-          </li>
-        </ol>
-        <hr />
-        <h3>
-          <a name="43-相关资料" class="md-header-anchor"></a
-          ><span>4.3 相关资料</span>
-        </h3>
-        <hr />
-        <h4>
-          <a name="431-数据集链接" class="md-header-anchor"></a
-          ><span>4.3.1 数据集链接：</span>
-        </h4>
-        <p>
-          <span>链接:</span><span> </span><span> </span
-          ><a
-            href="https://pan.baidu.com/s/1X0oKmfm2SdcQLq3NBNNo8A"
-            target="_blank"
-            class="url"
-            >https://pan.baidu.com/s/1X0oKmfm2SdcQLq3NBNNo8A</a
-          ><span> </span>
-        </p>
-        <p><span>提取码: 8421</span></p>
-        <hr />
-        <h4><a name="tips" class="md-header-anchor"></a><span>Tips：</span></h4>
-        <ol start="">
-          <li>
-            <p>
-              <span
-                >学习逻辑回归前可以先去了解构造损失函数的常见两种方法：极大似然函数构造和平方损失函数构造。其推导过程可以跟着网上资料一起写一遍，对于大一萌新来说可能在矩阵和微分方面有些陌生(放心以后都会学的)，其他方面都基本是高中的导数(你们应该比大二大三的学长熟)，如果这些理解较困难可以先跳过，拿最后的化简结果自行做梯度下降也是很棒的。(提示：我推出来好像是极大似然法构造出来的损失函数更为简单)</span
-              >
-            </p>
-          </li>
-          <li>
-            <p>
-              <span
-                >在很多python的项目中，耗时最多的往往不是模型的搭建，而是对于数据集的制作与处理，本题中已经提供了数据集，但是在数据集的处理中想必同学们会遇到一些难题，所以这里也需要同学们对于python的基础操作有深入认识，推荐一个我非常喜欢使用的函数replace()；还有就是如果对于矩阵的操作不熟练可以尝试将矩阵转化为多维列表解决，最后再将列表转化为矩阵。</span
-              >
-            </p>
-          </li>
-          <li>
-            <p>
-              <span
-                >善于运用网络进行机器学习方向的学习，现在基础的机器学习技术已经得到了充分发展，但是要把知识转化为自己的才是硬道理。在推荐的书籍中，《西瓜书》的话偏理论，有着大量的数学推理，是公认的机器学习必备神书，对于数学公式情有独钟的可以在其中发现新天地。</span
-              >
-            </p>
-          </li>
-          <li>
-            <p>
-              <span
-                >学校里面涉及到机器学习的课程较少(大一下期杨珊老师的PYTHON图像识别课程推荐一下，对于机器学习有感兴趣的同学在那个课上可以学到很多)，所以对于机器学习的研究其实主要靠自己，由此可见兴趣是很好的驱动力。比如我暑假的时候曾经妄想做个模型来预测股票“试试”，用了有时序序列的RNN和LSTM等高端模型，一通胡乱操作后得出惊人的结论：财富自由触手可及！(然而这个模型完全是根据过去预测过去，往后预测一天都行不通)但是这样的乐趣仍然是无限的，希望同学们也能用兴趣驱动知识增长。</span
-              >
-            </p>
-            <p><span>放张图给大家康康我当时有多兴奋：</span></p>
-            <p><img src="../assets/4.3.1.png" /></p>
-          </li>
-        </ol>
-        <blockquote><hr /></blockquote>
-        <p>&nbsp;</p>
-        <h2>
-          <a name="5-链时代招新附加题" class="md-header-anchor"></a
-          ><span>5 链时代招新附加题</span>
-        </h2>
-        <hr />
-        <p><span>出题人：张庭恺</span></p>
-        <p><span>QQ：964679000（欢迎提问与交流）</span></p>
-        <hr />
-        <h3>
-          <a name="51-引入" class="md-header-anchor"></a><span>5.1 引入</span>
-        </h3>
-        <hr />
-        <p>
-          <span
-            >可能在此之前你已经简单了解过卷积层和CNN，接下来你将使用多重卷积层，搭建一个经典的DCNN（深度卷积网络），训练它并使用它实现简单的图像识别</span
-          >
-        </p>
-        <hr />
-        <h3>
-          <a name="52-题目" class="md-header-anchor"></a><span>5.2 题目：</span>
-        </h3>
-        <hr />
-        <p>
-          <strong><span>神经网络搭建</span></strong>
-        </p>
+        <p><span>基本要求: </span></p>
         <ul>
           <li>
-            <p>
-              <span
-                >本题需要你使用相关框架，复现轻量级的深度卷积网络-MobileNet（V1-V3架构任选其一)</span
-              >
-            </p>
+            <span>实现@Controller @RequestMapping @RequestParam注解功能</span>
           </li>
-          <li>
-            <p>
-              <span
-                >训练数据集推荐选用CelebA数据集，测试集推荐LFW数据集，请对数据进行合适的预处理（裁剪，缩放等）</span
-              >
-            </p>
-          </li>
-          <li>
-            <p><span>提示：</span></p>
-            <ul>
-              <li>
-                <p>
-                  <span
-                    >由于CelebA数据集的存储方式，使得它的提取在使用某些方法时更加方便</span
-                  >
-                </p>
-              </li>
-              <li>
-                <p>
-                  <span
-                    >由于网络过深，lable维度过高时训练困难，选取其中10个类别进行训练即可</span
-                  >
-                </p>
-              </li>
-              <li>
-                <p><span>关于损失函数，或许存在更好的形式等着你发掘</span></p>
-              </li>
-              <li>
-                <p><span>网络收敛过慢时，建议自定义optimizer</span></p>
-              </li>
-              <li>
-                <p><span>如果有能力建议阅读原论文：</span></p>
-                <p>
-                  <span>mobilenet-v1：</span
-                  ><a href="https://arxiv.org/pdf/1704.04861.pdf"
-                    ><span>https://arxiv.org/pdf/1704.04861.pdf</span></a
-                  >
-                </p>
-                <p>
-                  <span>mobilenet-v2：</span
-                  ><a href="https://arxiv.org/abs/1801.04381"
-                    ><span>https://arxiv.org/abs/1801.04381</span></a
-                  >
-                </p>
-                <p>
-                  <span>mobilenet-v3：</span
-                  ><a href="https://arxiv.org/pdf/1905.02244.pdf"
-                    ><span>https://arxiv.org/pdf/1905.02244.pdf</span></a
-                  >
-                  <strong
-                    ><span
-                      >学有余力的请阅读论文原文，并提交markdown形式论文理解</span
-                    ></strong
-                  >
-                </p>
-              </li>
-            </ul>
-          </li>
+          <li><span>实现自己的DispatcherServlet</span></li>
+          <li><span>编写TestController测试是否成功</span></li>
         </ul>
-        <hr />
-        <p>&nbsp;</p>
       </div>
     </body>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {};
+  },
+  components: {},
+};
 </script>
 
 <style scoped>
-/* 附加css */
 * {
   text-align: left;
 }
@@ -322,7 +107,6 @@ export default {};
   background-color: rgb(226, 226, 226) !important;
   padding: 0px 30px;
 }
-
 html {
   overflow-x: initial !important;
 }
@@ -353,7 +137,7 @@ body {
   line-height: 1.42857;
   overflow-x: hidden;
   background: inherit;
-    position: relative;
+  position: relative;
   top: -60px;
   border-radius: 3%;
   tab-size: 4;
