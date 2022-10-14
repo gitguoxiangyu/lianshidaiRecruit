@@ -72,7 +72,7 @@
         <p><span>（尽可能实现多的要点，当然可以按照自己的思路设计。）</span></p>
         <p>
           <span> </span><strong><span>出题人</span></strong
-          ><span>：easton</span>
+          ><span>：漆一锦</span>
         </p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>

@@ -39,7 +39,7 @@
         <div class="home-title1 animate__fadeInDown animate__slow animate__animated animate__delay-1s">链时代</div>
         <div class="home-title2 animate__fadeInDown animate__slower animate__animated animate__delay-2s">创造你的时代！</div>
         <div class="home-wrapper flex-row justify-between">
-          <div class="home-photo"></div>
+          <div class="home-photo"><img src="../assets/pic.jpg" alt=""></div>
           <div class="home-text-wrapper">
             <span class="home-paragraph animate__fadeInDown animate__slower animate__animated animate__delay-3s">创新改变时代，<br/>技术创造未来<br /></span>
             <!-- <button class="home-button flex-col" @click="onClick_1">
@@ -375,7 +375,6 @@ html {
   display: flex;
 }
 .home-photo {
-  background-color: rgba(216, 216, 216, 1);
   width: 538px;
   height: 401px;
   z-index: 1;
