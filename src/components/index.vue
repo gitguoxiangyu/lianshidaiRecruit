@@ -190,7 +190,7 @@ html {
   background-color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 80px;
-  width: 1690px;
+  width: 100%;
   overflow: hidden;
     /* 渐变背景 */
   background: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
@@ -212,7 +212,7 @@ html {
 }
 
 .bg-image {
-  width: 1690px;
+  width: 100%;
   height: 756px;
   background: url(../assets/logo.png)
     100% no-repeat;
@@ -285,7 +285,7 @@ html {
 
 .bg-main {
   position: relative;
-  width: 1690px;
+  width: 100%;
   height: 2466px;
   overflow: hidden;
   /* 背景始终在最底层 */
@@ -296,10 +296,10 @@ html {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.4);
   background-color: rgba(255, 255, 255, 1);
   border-radius: 10px 10px 0px 0px;
-  width: 1590px;
+  width: 92%;
   /* height: 2725px; */
   top: 684px;
-  left: 50px;
+  left: 4%;
   position: absolute;
   z-index: 1;
 }
