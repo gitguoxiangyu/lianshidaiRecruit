@@ -106,27 +106,7 @@
             ></strong
           >
         </p>
-        <p>
-          <span
-            >问题1写在一个doc文档里,问题2、3、4、5、6将代码打成压缩包(4、5、6建议分别放在不同的package中),之后一并打包发送到邮箱</span
-          ><strong
-            ><a
-              href="mailto:lxx18912405977@outlook.com"
-              target="_blank"
-              class="url"
-              >lxx18912405977@outlook.com</a
-            ></strong
-          ><span>
-            ,若完成第五题(或完成一部分),面试时须带电脑来现场进行演示.</span
-          >
-        </p>
-        <p>
-          <strong
-            ><span
-              >如果对题目理解有疑问的,欢迎QQ联系. QQ: 2356176435.</span
-            ></strong
-          >
-        </p>
+
         <p>
           <span>学习网站推荐:</span
           ><a href="https://www.w3cschool.cn/"><span>w3cschool</span></a

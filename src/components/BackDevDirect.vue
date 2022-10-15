@@ -7,7 +7,7 @@
           ><span>后端招新题</span>
         </h1>
         <p>
-          <span>大二的同学只需完成第八题（欢迎有一定基础的大一大佬来进行尝试）,打包发送到邮箱</span
+          <span>大二的同学只需完成大二专享题（欢迎有一定基础的大一大佬来进行尝试）,打包发送到邮箱</span
           ><a href="mailto:lxx18912405977@outlook.com"
             ><span>lxx18912405977@outlook.com</span></a
           ><span>.</span>
@@ -20,7 +20,7 @@
           >
         </p>
         <h2>
-          <a name="8-大二专享" class="md-header-anchor"></a
+          <a name="5-大二专享" class="md-header-anchor"></a
           ><span>8. 大二专享</span>
         </h2>
         <p>
