@@ -34,7 +34,7 @@
         </p>
         <h2>
           <a name="4进阶题学有余力的同学可以尝试）" class="md-header-anchor"></a
-          ><span>4.进阶题（学有余力的同学可以尝试）</span>
+          ><span>4.进阶题</span>
         </h2>
         <p><span>（二选一）</span></p>
         <ol start="">
