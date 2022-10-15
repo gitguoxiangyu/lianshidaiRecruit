@@ -90,7 +90,7 @@
               <li><span>尝试在你的电脑上安装Mysql数据库和SQLyog.</span></li>
               <li>
                 <span
-                  >按照第6题定义的Student和Course类创建表student_tbl和course_tbl.</span
+                  >按照上一题定义的Student和Course类创建表student_tbl和course_tbl.（提交sql脚本）</span
                 >
               </li>
               <li><span>尝试学习sql语句，对你创建的数据表进行修改.</span></li>
