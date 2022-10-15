@@ -32,6 +32,7 @@
       <el-col :span="2"
         ><el-submenu index="2">
           <template slot="title">后端</template>
+          <el-menu-item index="2-4" route="/backdevforeword">提交须知</el-menu-item>
           <el-menu-item index="2-1" route="/backdeveasy">基础进阶</el-menu-item>
           <el-menu-item index="2-2" route="/backdevhard">实战强化</el-menu-item>
           <el-menu-item index="2-3" route="/backdevdirect">直通面试（大二）</el-menu-item>

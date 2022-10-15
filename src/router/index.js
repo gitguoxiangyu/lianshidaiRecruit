@@ -26,6 +26,10 @@ export default new VueRouter({
     },
     // 后端招新题
     {
+      path:'/backdevforeword',
+      component: ()=> import('../components/BackDevForeword.vue')
+    },
+    {
       path:'/backdeveasy',
       component: ()=> import('../components/BackDevEasy.vue')
     },
