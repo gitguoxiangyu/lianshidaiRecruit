@@ -35,7 +35,7 @@
         </p>
         <p>
           <strong><span></span></strong
-          ><span><a href="http://101.35.193.46:80/demo.zip">demo下载</a></span>
+          ><span><a href="http://101.35.193.46:80/demo.zip">demo下载（如果出现无法下载的情况，请将点击右键，将链接复制到浏览器地址栏内访问）</a></span>
         </p>
         <p>&nbsp;</p>
         <h3>
