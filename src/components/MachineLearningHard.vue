@@ -215,7 +215,7 @@
           ><span>5 链时代招新附加题</span>
         </h2>
         <hr />
-        <p><span>QQ：1611773856（欢迎提问与交流）</span></p>
+        <p><span>QQ：2319427638（欢迎提问与交流）</span></p>
         <hr />
         <h3>
           <a name="51-引入" class="md-header-anchor"></a><span>5.1 引入</span>
